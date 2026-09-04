@@ -1,0 +1,64 @@
+about:
+  description:
+  |
+    A modern formatting library
+  license: MIT
+  homepage: https://fmt.dev
+  head: bc82c40
+  archived: false
+  latestVersion: 12.2.0
+  collectedAt: 2026-09-04T04:23:38Z
+timeline:
+  created: 2012-12-07
+  lastCommit: 2026-09-02
+  lastRelease: 2026-06-16
+popularity:
+  star: 25184
+  watcher: 325
+  fork: 3018
+  release: 58
+  contributor: 577
+  pullRequest: 554
+  issue: 3013
+language:
+  C++: 2541954
+  Python: 53754
+  CMake: 46388
+  C: 11160
+  Shell: 2113
+  Cuda: 905
+  Makefile: 299
+totalBytes: 2656573
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 0
+    mergedPR: 12
+    openPR: 8
+    closedIssue: 6
+    openIssue: 1
+    commit: 21
+  last90d:
+    since: 2026-06-06
+    release: 1
+    mergedPR: 36
+    openPR: 8
+    closedIssue: 39
+    openIssue: 1
+    commit: 72
+  last180d:
+    since: 2026-03-08
+    release: 1
+    mergedPR: 60
+    openPR: 8
+    closedIssue: 74
+    openIssue: 3
+    commit: 154
+  last360d:
+    since: 2025-09-09
+    release: 3
+    mergedPR: 123
+    openPR: 8
+    closedIssue: 152
+    openIssue: 3
+    commit: 350
