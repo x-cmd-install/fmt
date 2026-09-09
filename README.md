@@ -7,7 +7,7 @@ A modern formatting library
 - **Latest release**: `12.2.0` (2026-06-16)
 - **Last commit**: 2026-09-09
 - **License**: MIT
-- **Stars**: 25686 · **Forks**: 3050 · **Open issues**: 3020 · **Contributors**: 586
+- **Stars**: 25696 · **Forks**: 3054 · **Open issues**: 3020 · **Contributors**: 586
 
 ## Installation
 
@@ -21,4 +21,4 @@ See <https://x-cmd.com/install/fmt> for details.
 
 This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-09T05:18:59Z._
+_Last regenerated: 2026-09-09T19:19:40Z._
