@@ -7,7 +7,7 @@ about:
   latestVersion: "12.2.0"
   latestRelease: "12.2.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:39:24Z
+  collectedAt: 2026-09-10T22:25:32Z
 timeline:
   created: 2012-12-07
   lastCommit: 2026-09-09
@@ -21,7 +21,7 @@ popularity:
   release: 58
   contributor: 587
   pullRequest: 1900
-  issue: 3020
+  issue: 3021
 language:
   C++: 2547175
   Python: 53485
@@ -38,7 +38,7 @@ recent:
     mergedPR: 23
     openPR: 8
     closedIssue: 14
-    openIssue: 0
+    openIssue: 1
     commit: 48
   last60d:
     since: 2026-07-12
@@ -46,7 +46,7 @@ recent:
     mergedPR: 36
     openPR: 8
     closedIssue: 27
-    openIssue: 0
+    openIssue: 1
     commit: 74
   last90d:
     since: 2026-06-12
@@ -54,7 +54,7 @@ recent:
     mergedPR: 46
     openPR: 8
     closedIssue: 45
-    openIssue: 0
+    openIssue: 1
     commit: 94
   last180d:
     since: 2026-03-14
@@ -62,7 +62,7 @@ recent:
     mergedPR: 66
     openPR: 8
     closedIssue: 78
-    openIssue: 2
+    openIssue: 3
     commit: 178
   last360d:
     since: 2025-09-15
@@ -70,7 +70,7 @@ recent:
     mergedPR: 134
     openPR: 8
     closedIssue: 156
-    openIssue: 2
+    openIssue: 3
     commit: 368
   last720d:
     since: 2024-09-20
@@ -78,18 +78,18 @@ recent:
     mergedPR: 230
     openPR: 8
     closedIssue: 382
-    openIssue: 4
+    openIssue: 5
     commit: 734
 total:
   release: 58
   mergedPR: 1343
   openPR: 8
   closedIssue: 3016
-  openIssue: 4
+  openIssue: 5
   commit: 7995
 ---
 path: /home/runner/.x-repo/github.com/fmtlib/fmt
-collectedAt: 2026-09-10T21:39:32Z
+collectedAt: 2026-09-10T22:25:37Z
 loc:
   CHeader:
     code: 27333
