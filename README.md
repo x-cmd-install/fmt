@@ -23,11 +23,17 @@ x install fmt
 - **Latest**: `12.2.0` (2026-06-16)
 - **Last commit**: 2026-09-09
 - **Assets in release**: 2
-- **Published**: 2026-06-16T05:30:06Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [fmt-12.2.0.intoto.jsonl](https://github.com/fmtlib/fmt/releases/download/12.2.0/fmt-12.2.0.intoto.jsonl) | 19.5 KiB | `other` |
+| [fmt-12.2.0.zip](https://github.com/fmtlib/fmt/releases/download/12.2.0/fmt-12.2.0.zip) | 1.4 MiB | `other` |
 
 ## Popularity
 
-- **Stars**: 25,707 · **Forks**: 3,055 · **Open issues**: 3,020 · **Contributors**: 587
+- **Stars**: 25,716 · **Forks**: 3,057 · **Open issues**: 3,020 · **Contributors**: 587
 
 ## Totals (cumulative)
 
@@ -67,8 +73,8 @@ Lowest-scoring checks:
 Install metadata for fmt lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `fmt` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/fmt.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/fmt.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T05:20:02Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T17:07:17Z._
