@@ -14,14 +14,14 @@ x install fmt
 
 ## Code insight
 
-Total: **50,825** lines of code across **91** files in the top 5 languages.
+Total: **50,840** lines of code across **91** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| CHeader | 27,333 | 10,104 | 5,261 | 26 |
-| Cpp | 20,728 | 3,281 | 3,255 | 47 |
+| CHeader | 27,327 | 10,104 | 5,261 | 26 |
+| Cpp | 20,750 | 3,282 | 3,258 | 47 |
 | Python | 1,298 | 67 | 233 | 6 |
-| CMake | 1,122 | 166 | 149 | 11 |
+| CMake | 1,121 | 166 | 149 | 11 |
 | Css | 103 | 1 | 13 | 1 |
 
 ## OpenSSF Scorecard
@@ -30,7 +30,7 @@ Overall score: **9.1 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (4/10) — Found 12/30 approved changesets -- score normalized to 4
+- **Code-Review** (4/10) — Found 14/30 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `12.2.0` (2026-06-16)
-- **Last commit**: 2026-09-09
+- **Last commit**: 2026-09-11
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 25,726 · **Forks**: 3,059 · **Open issues**: 3,021 · **Contributors**: 587
+- **Stars**: 25,738 · **Forks**: 3,061 · **Open issues**: 3,022 · **Contributors**: 588
 
 ## Totals (cumulative)
 
-- **Releases**: 58 · **Merged PRs**: 1343 · **Open PRs**: 9 · **Closed issues**: 3016 · **Open issues**: 5 · **Commits**: 7995
+- **Releases**: 58 · **Merged PRs**: 1347 · **Open PRs**: 5 · **Closed issues**: 3017 · **Open issues**: 5 · **Commits**: 8002
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 0 | 23 | 9 | 14 | 1 | 48 |
-| last60d | 2026-07-13 | 0 | 36 | 9 | 26 | 1 | 74 |
-| 90d | 2026-06-13 | 1 | 46 | 9 | 45 | 1 | 94 |
-| last180d | 2026-03-15 | 1 | 66 | 9 | 78 | 3 | 178 |
-| 360d | 2025-09-16 | 3 | 134 | 9 | 156 | 3 | 368 |
-| last720d | 2024-09-21 | 9 | 230 | 9 | 379 | 5 | 730 |
+| 30d | 2026-08-12 | 0 | 27 | 5 | 15 | 1 | 55 |
+| last60d | 2026-07-13 | 0 | 40 | 5 | 27 | 1 | 81 |
+| 90d | 2026-06-13 | 1 | 50 | 5 | 46 | 1 | 101 |
+| last180d | 2026-03-15 | 1 | 70 | 5 | 79 | 3 | 185 |
+| 360d | 2025-09-16 | 3 | 138 | 5 | 157 | 3 | 375 |
+| last720d | 2024-09-21 | 9 | 234 | 5 | 380 | 5 | 737 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for fmt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T05:17:48Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T19:40:35Z._
