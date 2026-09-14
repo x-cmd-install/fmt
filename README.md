@@ -41,27 +41,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `12.2.0` (2026-06-16)
-- **Last commit**: 2026-09-12
+- **Last commit**: 2026-09-13
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 25,751 · **Forks**: 3,065 · **Open issues**: 3,023 · **Contributors**: 588
+- **Stars**: 25,766 · **Forks**: 3,065 · **Open issues**: 3,023 · **Contributors**: 588
 
 ## Totals (cumulative)
 
-- **Releases**: 58 · **Merged PRs**: 1348 · **Open PRs**: 4 · **Closed issues**: 3017 · **Open issues**: 6 · **Commits**: 8003
+- **Releases**: 58 · **Merged PRs**: 1349 · **Open PRs**: 4 · **Closed issues**: 3018 · **Open issues**: 5 · **Commits**: 8004
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 27 | 4 | 14 | 2 | 56 |
-| last60d | 2026-07-15 | 0 | 40 | 4 | 23 | 2 | 82 |
-| 90d | 2026-06-15 | 1 | 51 | 4 | 42 | 2 | 102 |
-| last180d | 2026-03-17 | 1 | 71 | 4 | 79 | 4 | 186 |
-| 360d | 2025-09-18 | 2 | 138 | 4 | 156 | 4 | 376 |
-| last720d | 2024-09-23 | 9 | 235 | 4 | 378 | 6 | 730 |
+| 30d | 2026-08-15 | 0 | 28 | 4 | 15 | 1 | 56 |
+| last60d | 2026-07-16 | 0 | 41 | 4 | 24 | 1 | 77 |
+| 90d | 2026-06-16 | 1 | 50 | 4 | 42 | 1 | 98 |
+| last180d | 2026-03-18 | 1 | 71 | 4 | 80 | 3 | 185 |
+| 360d | 2025-09-19 | 2 | 138 | 4 | 156 | 3 | 370 |
+| last720d | 2024-09-24 | 9 | 236 | 4 | 379 | 5 | 731 |
 
 ## Release assets
 
@@ -69,25 +69,6 @@ Lowest-scoring checks:
 |-------|-----:|--------|
 | [fmt-12.2.0.intoto.jsonl](https://github.com/fmtlib/fmt/releases/download/12.2.0/fmt-12.2.0.intoto.jsonl) | 19.5 KiB | `other` |
 | [fmt-12.2.0.zip](https://github.com/fmtlib/fmt/releases/download/12.2.0/fmt-12.2.0.zip) | 1.4 MiB | `other` |
-
-## Distribution status
-
-Reported by **320** distros on [repology.org](https://repology.org/project/fmt). **41** are ✅ on the latest upstream release, **147** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `10.1.1` | ⚠️ outdated |
-| Debian 14 | `10.1.1` | ⚠️ outdated |
-| Debian 13 | `10.1.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `10.1.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `9.1.0` | ⚠️ outdated |
-| Arch | `12.2.0` | ✅ latest |
-| Homebrew | `12.2.0` | ✅ latest |
-| Fedora rawhide | `12.1.0` | ⚠️ outdated |
-| Nix unstable | `12.2.0` | ✅ latest |
-| Void | `12.1.0` | ⚠️ outdated |
-| Alpine edge | `11.2.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `10.2.1` | 🪦 legacy |
 
 ## Improve this data
 
@@ -98,4 +79,4 @@ Install metadata for fmt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:36:42Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:41:02Z._
