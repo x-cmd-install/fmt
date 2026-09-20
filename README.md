@@ -4,7 +4,7 @@
 
 A modern formatting library
 
-![fmt](https://repo.x-cmd.io/fmt.svg)
+[![x-cmd/install — fmt Code Quality Monitoring Repo Card](https://repo.x-cmd.io/fmt.svg)](https://x-cmd.com/install/fmt)
 
 ## Install
 
@@ -14,12 +14,12 @@ x install fmt
 
 ## Code insight
 
-Total: **50,853** lines of code across **91** files in the top 5 languages.
+Total: **50,927** lines of code across **91** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| CHeader | 27,337 | 10,108 | 5,265 | 26 |
-| Cpp | 20,753 | 3,283 | 3,258 | 47 |
+| CHeader | 27,367 | 10,114 | 5,269 | 26 |
+| Cpp | 20,797 | 3,288 | 3,266 | 47 |
 | Python | 1,298 | 67 | 233 | 6 |
 | CMake | 1,121 | 166 | 149 | 11 |
 | Css | 103 | 1 | 13 | 1 |
@@ -41,27 +41,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `12.2.0` (2026-06-16)
-- **Last commit**: 2026-09-16
+- **Last commit**: 2026-09-19
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 25,790 · **Forks**: 3,071 · **Open issues**: 3,025 · **Contributors**: 589
+- **Stars**: 25,791 · **Forks**: 3,070 · **Open issues**: 3,025 · **Contributors**: 591
 
 ## Totals (cumulative)
 
-- **Releases**: 58 · **Merged PRs**: 1351 · **Open PRs**: 4 · **Closed issues**: 3019 · **Open issues**: 6 · **Commits**: 8006
+- **Releases**: 58 · **Merged PRs**: 1354 · **Open PRs**: 5 · **Closed issues**: 3020 · **Open issues**: 5 · **Commits**: 8011
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 29 | 4 | 16 | 2 | 58 |
-| last60d | 2026-07-20 | 0 | 39 | 4 | 22 | 2 | 79 |
-| 90d | 2026-06-20 | 0 | 51 | 4 | 37 | 2 | 100 |
-| last180d | 2026-03-22 | 1 | 73 | 4 | 80 | 4 | 187 |
-| 360d | 2025-09-23 | 2 | 139 | 4 | 156 | 4 | 372 |
-| last720d | 2024-09-28 | 9 | 237 | 4 | 379 | 6 | 731 |
+| 30d | 2026-08-21 | 0 | 32 | 5 | 16 | 1 | 63 |
+| last60d | 2026-07-22 | 0 | 41 | 5 | 23 | 1 | 84 |
+| 90d | 2026-06-22 | 0 | 54 | 5 | 38 | 1 | 105 |
+| last180d | 2026-03-24 | 1 | 76 | 5 | 81 | 3 | 192 |
+| 360d | 2025-09-25 | 2 | 142 | 5 | 156 | 3 | 377 |
+| last720d | 2024-09-30 | 9 | 240 | 5 | 378 | 5 | 730 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for fmt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T05:27:24Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:29:54Z._
