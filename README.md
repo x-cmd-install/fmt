@@ -14,11 +14,11 @@ x install fmt
 
 ## Code insight
 
-Total: **50,902** lines of code across **91** files in the top 5 languages.
+Total: **50,889** lines of code across **91** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| CHeader | 27,350 | 10,118 | 5,267 | 26 |
+| CHeader | 27,337 | 10,118 | 5,265 | 26 |
 | Cpp | 20,789 | 3,288 | 3,266 | 47 |
 | Python | 1,298 | 67 | 233 | 6 |
 | CMake | 1,121 | 166 | 149 | 11 |
@@ -41,27 +41,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `12.2.0` (2026-06-16)
-- **Last commit**: 2026-09-21
+- **Last commit**: 2026-09-25
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 25,807 · **Forks**: 3,073 · **Open issues**: 3,025 · **Contributors**: 591
+- **Stars**: 25,810 · **Forks**: 3,072 · **Open issues**: 3,025 · **Contributors**: 592
 
 ## Totals (cumulative)
 
-- **Releases**: 58 · **Merged PRs**: 1354 · **Open PRs**: 7 · **Closed issues**: 3020 · **Open issues**: 5 · **Commits**: 8014
+- **Releases**: 58 · **Merged PRs**: 1355 · **Open PRs**: 7 · **Closed issues**: 3020 · **Open issues**: 5 · **Commits**: 8015
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-26 | 0 | 27 | 7 | 14 | 1 | 63 |
-| last60d | 2026-07-27 | 0 | 41 | 7 | 22 | 1 | 80 |
-| 90d | 2026-06-27 | 0 | 51 | 7 | 35 | 1 | 102 |
-| last180d | 2026-03-29 | 1 | 76 | 7 | 79 | 3 | 192 |
-| 360d | 2025-09-30 | 2 | 140 | 7 | 152 | 3 | 375 |
-| last720d | 2024-10-05 | 9 | 236 | 7 | 374 | 5 | 726 |
+| 30d | 2026-08-27 | 0 | 28 | 7 | 13 | 1 | 64 |
+| last60d | 2026-07-28 | 0 | 40 | 7 | 22 | 1 | 81 |
+| 90d | 2026-06-28 | 0 | 51 | 7 | 35 | 1 | 103 |
+| last180d | 2026-03-30 | 1 | 77 | 7 | 78 | 3 | 193 |
+| 360d | 2025-10-01 | 2 | 139 | 7 | 151 | 3 | 376 |
+| last720d | 2024-10-06 | 9 | 237 | 7 | 373 | 5 | 726 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for fmt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260925.yml` · 2026-09-25T05:26:22Z._
+_Snapshot: `data/card/260926.yml` · 2026-09-26T05:23:41Z._
