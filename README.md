@@ -14,12 +14,12 @@ x install fmt
 
 ## Code insight
 
-Total: **51,149** lines of code across **91** files in the top 5 languages.
+Total: **51,117** lines of code across **91** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| CHeader | 27,433 | 10,138 | 5,272 | 26 |
-| Cpp | 20,950 | 3,295 | 3,292 | 47 |
+| CHeader | 27,428 | 10,138 | 5,274 | 26 |
+| Cpp | 20,923 | 3,301 | 3,288 | 47 |
 | Python | 1,298 | 67 | 233 | 6 |
 | CMake | 1,124 | 166 | 149 | 11 |
 | Css | 103 | 1 | 13 | 1 |
@@ -41,27 +41,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `12.2.0` (2026-06-16)
-- **Last commit**: 2026-10-07
+- **Last commit**: 2026-10-08
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 25,872 · **Forks**: 3,084 · **Open issues**: 3,032 · **Contributors**: 597
+- **Stars**: 25,874 · **Forks**: 3,084 · **Open issues**: 3,029 · **Contributors**: 597
 
 ## Totals (cumulative)
 
-- **Releases**: 58 · **Merged PRs**: 1365 · **Open PRs**: 6 · **Closed issues**: 3026 · **Open issues**: 6 · **Commits**: 8029
+- **Releases**: 58 · **Merged PRs**: 1363 · **Open PRs**: 7 · **Closed issues**: 3024 · **Open issues**: 5 · **Commits**: 8033
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-08 | 0 | 16 | 6 | 6 | 3 | 34 |
-| last60d | 2026-08-09 | 0 | 44 | 6 | 21 | 3 | 84 |
-| 90d | 2026-07-10 | 0 | 58 | 6 | 37 | 3 | 108 |
-| last180d | 2026-04-11 | 1 | 81 | 6 | 71 | 3 | 197 |
-| 360d | 2025-10-13 | 2 | 143 | 6 | 151 | 4 | 372 |
-| last720d | 2024-10-18 | 9 | 244 | 6 | 370 | 6 | 733 |
+| 30d | 2026-09-09 | 0 | 17 | 7 | 7 | 2 | 37 |
+| last60d | 2026-08-10 | 0 | 42 | 7 | 19 | 2 | 84 |
+| 90d | 2026-07-11 | 0 | 56 | 7 | 33 | 2 | 108 |
+| last180d | 2026-04-12 | 1 | 79 | 7 | 69 | 2 | 197 |
+| 360d | 2025-10-14 | 2 | 140 | 7 | 148 | 3 | 372 |
+| last720d | 2024-10-19 | 9 | 242 | 7 | 368 | 5 | 736 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for fmt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261008.yml` · 2026-10-08T06:38:08Z._
+_Snapshot: `data/card/261009.yml` · 2026-10-09T06:35:54Z._
