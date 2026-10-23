@@ -46,22 +46,22 @@ x install fmt
 
 ## 流行度
 
-- **Star**: 25,887 · **Fork**: 3,089 · **开放 issue**: 3,035 · **贡献者**: 600
+- **Star**: 25,888 · **Fork**: 3,090 · **开放 issue**: 3,035 · **贡献者**: 600
 
 ## 累计统计
 
-- **发布数**: 58 · **已合并 PR**: 1372 · **开放 PR**: 12 · **已关闭 issue**: 3031 · **开放 issue**: 4 · **提交数**: 8044
+- **发布数**: 58 · **已合并 PR**: 1372 · **开放 PR**: 13 · **已关闭 issue**: 3031 · **开放 issue**: 4 · **提交数**: 8044
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 14 | 12 | 6 | 1 | 30 |
-| last60d | 2026-08-23 | 0 | 47 | 12 | 23 | 1 | 94 |
-| 90d | 2026-07-24 | 0 | 58 | 12 | 31 | 1 | 111 |
-| last180d | 2026-04-25 | 1 | 85 | 12 | 71 | 1 | 208 |
-| 360d | 2025-10-27 | 2 | 143 | 12 | 150 | 2 | 364 |
-| last720d | 2024-11-01 | 9 | 247 | 12 | 360 | 4 | 736 |
+| 30d | 2026-09-23 | 0 | 14 | 13 | 6 | 1 | 30 |
+| last60d | 2026-08-24 | 0 | 45 | 13 | 23 | 1 | 94 |
+| 90d | 2026-07-25 | 0 | 58 | 13 | 31 | 1 | 111 |
+| last180d | 2026-04-26 | 1 | 85 | 13 | 71 | 1 | 208 |
+| 360d | 2025-10-28 | 2 | 143 | 13 | 149 | 2 | 364 |
+| last720d | 2024-11-02 | 9 | 247 | 13 | 359 | 4 | 735 |
 
 ## Release 资产
 
@@ -69,6 +69,25 @@ x install fmt
 |------|-----:|----------|
 | [fmt-12.2.0.intoto.jsonl](https://github.com/fmtlib/fmt/releases/download/12.2.0/fmt-12.2.0.intoto.jsonl) | 19.5 KiB | `other` |
 | [fmt-12.2.0.zip](https://github.com/fmtlib/fmt/releases/download/12.2.0/fmt-12.2.0.zip) | 1.4 MiB | `other` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/fmt) 上共有 **318** 个发行版报告此项目。**58** 个 ✅ 已是最新上游版本，**125** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `10.1.1` | 🪦 legacy |
+| Debian 14 | `10.1.1` | 🪦 legacy |
+| Debian 13 | `10.1.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `10.1.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `9.1.0` | ⚠️ outdated |
+| Arch | `12.2.0` | ✅ latest |
+| Homebrew | `12.2.0` | ✅ latest |
+| Fedora rawhide | `12.1.0` | ⚠️ outdated |
+| Nix unstable | `12.2.0` | ✅ latest |
+| Void | `12.1.0` | ⚠️ outdated |
+| Alpine edge | `12.2.0` | ✅ latest |
+| openSUSE Tumbleweed | `12.1.0` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -79,4 +98,4 @@ fmt 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:12:16Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:15:26Z._
