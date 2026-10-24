@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,888 · **Forks**: 3,090 · **Open issues**: 3,035 · **Contributors**: 600
+- **Stars**: 25,892 · **Forks**: 3,089 · **Open issues**: 3,035 · **Contributors**: 600
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 0 | 14 | 13 | 6 | 1 | 30 |
-| last60d | 2026-08-24 | 0 | 45 | 13 | 23 | 1 | 94 |
-| 90d | 2026-07-25 | 0 | 58 | 13 | 31 | 1 | 111 |
-| last180d | 2026-04-26 | 1 | 85 | 13 | 71 | 1 | 208 |
-| 360d | 2025-10-28 | 2 | 143 | 13 | 149 | 2 | 364 |
-| last720d | 2024-11-02 | 9 | 247 | 13 | 359 | 4 | 735 |
+| 30d | 2026-09-24 | 0 | 14 | 13 | 6 | 1 | 30 |
+| last60d | 2026-08-25 | 0 | 44 | 13 | 22 | 1 | 94 |
+| 90d | 2026-07-26 | 0 | 58 | 13 | 31 | 1 | 111 |
+| last180d | 2026-04-27 | 1 | 85 | 13 | 71 | 1 | 208 |
+| 360d | 2025-10-29 | 2 | 143 | 13 | 148 | 2 | 364 |
+| last720d | 2024-11-03 | 9 | 247 | 13 | 359 | 4 | 731 |
 
 ## Release assets
 
@@ -72,7 +72,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **318** distros on [repology.org](https://repology.org/project/fmt). **58** are ✅ on the latest upstream release, **125** are ⚠️ on an older version.
+Reported by **319** distros on [repology.org](https://repology.org/project/fmt). **59** are ✅ on the latest upstream release, **125** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,7 +87,7 @@ Reported by **318** distros on [repology.org](https://repology.org/project/fmt).
 | Nix unstable | `12.2.0` | ✅ latest |
 | Void | `12.1.0` | ⚠️ outdated |
 | Alpine edge | `12.2.0` | ✅ latest |
-| openSUSE Tumbleweed | `12.1.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `10.2.1` | 🪦 legacy |
 
 ## Improve this data
 
@@ -98,4 +98,4 @@ Install metadata for fmt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T05:15:25Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T05:07:11Z._
