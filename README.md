@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,896 · **Forks**: 3,092 · **Open issues**: 3,036 · **Contributors**: 603
+- **Stars**: 25,898 · **Forks**: 3,093 · **Open issues**: 3,037 · **Contributors**: 603
 
 ## Totals (cumulative)
 
-- **Releases**: 58 · **Merged PRs**: 1377 · **Open PRs**: 8 · **Closed issues**: 3032 · **Open issues**: 4 · **Commits**: 8052
+- **Releases**: 58 · **Merged PRs**: 1377 · **Open PRs**: 10 · **Closed issues**: 3032 · **Open issues**: 5 · **Commits**: 8052
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 0 | 17 | 8 | 7 | 1 | 30 |
-| last60d | 2026-08-30 | 0 | 45 | 8 | 22 | 1 | 92 |
-| 90d | 2026-07-31 | 0 | 61 | 8 | 28 | 1 | 113 |
-| last180d | 2026-05-02 | 1 | 88 | 8 | 69 | 1 | 209 |
-| 360d | 2025-11-03 | 1 | 145 | 8 | 144 | 2 | 357 |
-| last720d | 2024-11-08 | 9 | 251 | 8 | 356 | 4 | 734 |
+| 30d | 2026-09-30 | 0 | 16 | 10 | 6 | 2 | 30 |
+| last60d | 2026-08-31 | 0 | 45 | 10 | 22 | 2 | 92 |
+| 90d | 2026-08-01 | 0 | 60 | 10 | 28 | 2 | 113 |
+| last180d | 2026-05-03 | 1 | 88 | 10 | 69 | 2 | 209 |
+| 360d | 2025-11-04 | 1 | 145 | 10 | 144 | 3 | 357 |
+| last720d | 2024-11-09 | 9 | 250 | 10 | 355 | 5 | 734 |
 
 ## Release assets
 
@@ -82,7 +82,7 @@ Reported by **318** distros on [repology.org](https://repology.org/project/fmt).
 | Ubuntu 26.04 LTS | `10.1.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `9.1.0` | ⚠️ outdated |
 | Arch | `12.2.0` | ✅ latest |
-| Homebrew | `12.2.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `12.1.0` | ⚠️ outdated |
 | Nix unstable | `12.2.0` | ✅ latest |
 | Void | `12.1.0` | ⚠️ outdated |
@@ -98,4 +98,4 @@ Install metadata for fmt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T06:21:35Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T06:15:04Z._
