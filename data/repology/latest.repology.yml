@@ -1,205 +1,4 @@
-- repo: conancenter
-  srcname: fmt
-  visiblename: fmt
-  version: 11.0.1
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: fmt
-  visiblename: fmt
-  version: 11.0.0
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: fmt
-  visiblename: fmt
-  version: 10.2.1
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: fmt
-  visiblename: fmt
-  version: 10.2.0
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: fmt
-  visiblename: fmt
-  version: 10.1.1
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: fmt
-  visiblename: fmt
-  version: 10.1.0
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: fmt
-  visiblename: fmt
-  version: 10.0.0
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: fmt
-  visiblename: fmt
-  version: 9.1.0
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: fmt
-  visiblename: fmt
-  version: 9.0.0
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: fmt
-  visiblename: fmt
-  version: 8.1.1
-  origversion: null
-  status: legacy
-- repo: homebrew
-  srcname: fmt
-  visiblename: fmt
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Open-source formatting library for C++
-- repo: nix_stable_25_11
-  srcname: fmt_11
-  visiblename: fmt
-  version: 11.2.0
-  origversion: null
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: fmt_9
-  visiblename: fmt
-  version: 9.1.0
-  origversion: null
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - MIT
-- repo: stalix_dev
-  srcname: lib/fmt/12
-  binname: lib/fmt/12
-  visiblename: lib/fmt/12
-  version: 12.2.0
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - lib
-- repo: starkos
-  subrepo: main
-  srcname: fmt
-  visiblename: fmt
-  version: 12.2.0
-  origversion: 12.2.0-1
-  status: newest
-  summary: An open-source formatting library
-  maintainers:
-    - starkos@disroot.org
-- repo: kali_rolling
-  subrepo: main
-  srcname: fmtlib
-  binnames:
-    - libfmt-dev
-    - libfmt-doc
-    - libfmt11
-  visiblename: fmtlib
-  version: 11.1.1
-  origversion: 11.1.1+ds1-2
-  status: outdated
-  maintainers:
-    - zhsj@debian.org
-  categories:
-    - misc
-- repo: msys2_msys2
-  subrepo: x86_64
-  srcname: fmt
-  binname: fmt
-  visiblename: fmt
-  version: 12.2.0
-  origversion: 12.2.0-1
-  status: newest
-  summary: Open-source formatting library for C++
-  licenses:
-    - spdx:MIT
-- repo: apertis_v2023
-  subrepo: v2023/target
-  srcname: fmtlib
-  binnames:
-    - libfmt-dev
-    - libfmt-doc
-    - libfmt7
-  visiblename: fmtlib
-  version: 7.1.3
-  origversion: 7.1.3+ds1-5+apertis0
-  status: outdated
-  maintainers:
-    - zhsj@debian.org
-- repo: apertis_v2024
-  subrepo: v2024/target
-  srcname: fmtlib
-  binnames:
-    - libfmt-dev
-    - libfmt-doc
-    - libfmt9
-  visiblename: fmtlib
-  version: 9.1.0
-  origversion: 9.1.0+ds1-2+apertis1
-  status: outdated
-  maintainers:
-    - zhsj@debian.org
-- repo: apertis_v2025
-  subrepo: v2025/target
-  srcname: fmtlib
-  binnames:
-    - libfmt-dev
-    - libfmt-doc
-    - libfmt9
-  visiblename: fmtlib
-  version: 9.1.0
-  origversion: 9.1.0+ds1-2+apertis1
-  status: outdated
-  maintainers:
-    - zhsj@debian.org
-- repo: apertis_v2026
-  subrepo: v2026/target
-  srcname: fmtlib
-  binnames:
-    - libfmt-dev
-    - libfmt-doc
-    - libfmt10
-  visiblename: fmtlib
-  version: 10.1.1
-  origversion: 10.1.1+ds1-4+apertis0
-  status: outdated
-  maintainers:
-    - zhsj@debian.org
-- repo: apertis_v2027
-  subrepo: v2027dev1/target
-  srcname: fmtlib
-  binnames:
-    - libfmt-dev
-    - libfmt-doc
-    - libfmt10
-  visiblename: fmtlib
-  version: 10.1.1
-  origversion: 10.1.1+ds1-4+apertis0
-  status: outdated
-  maintainers:
-    - zhsj@debian.org
-- repo: arch
+- repo: parabola
   subrepo: extra
   srcname: fmt
   binname: fmt
@@ -210,78 +9,116 @@
   summary: Open-source formatting library for C++
   licenses:
     - MIT
-- repo: conancenter
-  srcname: fmt
-  visiblename: fmt
-  version: 8.0.1
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: fmt
-  visiblename: fmt
-  version: 7.1.3
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: fmt
-  visiblename: fmt
-  version: 6.2.1
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: fmt
-  visiblename: fmt
-  version: 5.3.0
-  origversion: null
-  status: legacy
-- repo: crux_37
-  subrepo: opt
-  srcname: fmt
-  visiblename: fmt
-  version: 11.0.2
-  origversion: null
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: fmtlib
+  binnames:
+    - libfmt-dev
+    - libfmt-doc
+    - libfmt9
+  visiblename: fmtlib
+  version: 9.1.0
+  origversion: 9.1.0+ds1-2
   status: outdated
-  summary: An open-source formatting library
   maintainers:
-    - tbier@posteo.de
-- repo: crux_38
-  subrepo: opt
-  srcname: fmt
-  visiblename: fmt
-  version: 12.2.0
-  origversion: null
-  status: newest
-  summary: An open-source formatting library
-  maintainers:
-    - tbier@posteo.de
-- repo: nix_stable_25_11
-  srcname: fmt
-  visiblename: fmt
-  version: 12.1.0
-  origversion: null
+    - zhsj@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: fmtlib
+  binnames:
+    - libfmt-dev
+    - libfmt-doc
+    - libfmt10
+  visiblename: fmtlib
+  version: 10.1.1
+  origversion: 10.1.1+ds1-4
   status: outdated
-  summary: Small, safe and fast formatting library
   maintainers:
-    - fallback-mnt-nix@repology
+    - zhsj@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: fmtlib
+  binnames:
+    - libfmt-dev
+    - libfmt-doc
+    - libfmt10
+  visiblename: fmtlib
+  version: 10.1.1
+  origversion: 10.1.1+ds1-4
+  status: outdated
+  maintainers:
+    - zhsj@debian.org
+  categories:
+    - misc
+- repo: aur
+  srcname: fmt11
+  binname: fmt11
+  visiblename: fmt11
+  version: 11.2.0
+  origversion: 11.2.0-1
+  status: outdated
+  summary: Open-source formatting library for C++ (major version 11)
+  maintainers:
+    - lcuy@aur
   licenses:
     - MIT
-- repo: nix_stable_25_11
-  srcname: fmt_10
+- repo: conancenter
+  srcname: fmt
+  visiblename: fmt
+  version: 11.0.1
+  origversion: null
+  status: legacy
+- repo: aur
+  srcname: fmt9
+  binname: fmt9
+  visiblename: fmt9
+  version: 9.1.0
+  origversion: 9.1.0-6
+  status: legacy
+  summary: Open-source formatting library for C++
+  maintainers:
+    - abouvier@aur
+  licenses:
+    - MIT
+- repo: aur
+  srcname: mingw-w64-fmt
+  binname: mingw-w64-fmt
+  visiblename: mingw-w64-fmt
+  version: 12.2.0
+  origversion: 12.2.0-1
+  status: newest
+  summary: Open-source formatting library for C++ (mingw-w64)
+  maintainers:
+    - patlefort@aur
+  licenses:
+    - MIT
+- repo: aur
+  srcname: android-aarch64-fmt
+  binname: android-aarch64-fmt
+  visiblename: android-aarch64-fmt
+  version: 12.2.0
+  origversion: 12.2.0-1
+  status: newest
+  summary: Open-source formatting library for C++ (Android aarch64)
+  maintainers:
+    - hipersayan_x@aur
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: fmt
   visiblename: fmt
   version: 10.2.1
   origversion: null
   status: legacy
   summary: Small, safe and fast formatting library
   maintainers:
-    - fallback-mnt-nix@repology
+    - qqlq@nullptr.club
   licenses:
     - MIT
-- repo: conancenter
-  srcname: fmt
-  visiblename: fmt
-  version: 11.0.2
-  origversion: null
-  status: legacy
 - repo: aerynos
   srcname: fmt
   visiblename: fmt
@@ -636,6 +473,71 @@
     - fallback-mnt-aosc@repology
   categories:
     - libs
+- repo: apertis_v2023
+  subrepo: v2023/target
+  srcname: fmtlib
+  binnames:
+    - libfmt-dev
+    - libfmt-doc
+    - libfmt7
+  visiblename: fmtlib
+  version: 7.1.3
+  origversion: 7.1.3+ds1-5+apertis0
+  status: outdated
+  maintainers:
+    - zhsj@debian.org
+- repo: apertis_v2024
+  subrepo: v2024/target
+  srcname: fmtlib
+  binnames:
+    - libfmt-dev
+    - libfmt-doc
+    - libfmt9
+  visiblename: fmtlib
+  version: 9.1.0
+  origversion: 9.1.0+ds1-2+apertis1
+  status: outdated
+  maintainers:
+    - zhsj@debian.org
+- repo: apertis_v2025
+  subrepo: v2025/target
+  srcname: fmtlib
+  binnames:
+    - libfmt-dev
+    - libfmt-doc
+    - libfmt9
+  visiblename: fmtlib
+  version: 9.1.0
+  origversion: 9.1.0+ds1-2+apertis1
+  status: outdated
+  maintainers:
+    - zhsj@debian.org
+- repo: apertis_v2026
+  subrepo: v2026/target
+  srcname: fmtlib
+  binnames:
+    - libfmt-dev
+    - libfmt-doc
+    - libfmt10
+  visiblename: fmtlib
+  version: 10.1.1
+  origversion: 10.1.1+ds1-4+apertis0
+  status: outdated
+  maintainers:
+    - zhsj@debian.org
+- repo: apertis_v2027
+  subrepo: v2027dev1/target
+  srcname: fmtlib
+  binnames:
+    - libfmt-dev
+    - libfmt-doc
+    - libfmt10
+  visiblename: fmtlib
+  version: 10.1.1
+  origversion: 10.1.1+ds1-4+apertis0
+  status: outdated
+  maintainers:
+    - zhsj@debian.org
 - repo: arch
   subrepo: extra
   srcname: fmt
@@ -647,16 +549,39 @@
   summary: Open-source formatting library for C++ (documentation)
   licenses:
     - MIT
-- repo: aur
-  srcname: android-aarch64-fmt
-  binname: android-aarch64-fmt
-  visiblename: android-aarch64-fmt
+- repo: arch
+  subrepo: extra
+  srcname: fmt
+  binname: fmt
+  visiblename: fmt
   version: 12.2.0
   origversion: 12.2.0-1
   status: newest
-  summary: Open-source formatting library for C++ (Android aarch64)
+  summary: Open-source formatting library for C++
+  licenses:
+    - MIT
+- repo: aur
+  srcname: fmt-git
+  binname: fmt-git
+  visiblename: fmt-git
+  version: 12.1.0.r109.g88c5a91
+  origversion: 12.1.0.r109.g88c5a91-1
+  status: rolling
+  summary: Open-source formatting library for C++
   maintainers:
-    - hipersayan_x@aur
+    - abouvier@aur
+  licenses:
+    - MIT
+- repo: aur
+  srcname: fmt10
+  binname: fmt10
+  visiblename: fmt10
+  version: 10.2.1
+  origversion: 10.2.1-1
+  status: legacy
+  summary: Open-source formatting library for C++
+  maintainers:
+    - fallback-mnt-aur@repology
   licenses:
     - MIT
 - repo: aur
@@ -705,66 +630,6 @@
   summary: Open-source formatting library for C++ (Android x86)
   maintainers:
     - hipersayan_x@aur
-  licenses:
-    - MIT
-- repo: aur
-  srcname: mingw-w64-fmt
-  binname: mingw-w64-fmt
-  visiblename: mingw-w64-fmt
-  version: 12.2.0
-  origversion: 12.2.0-1
-  status: newest
-  summary: Open-source formatting library for C++ (mingw-w64)
-  maintainers:
-    - patlefort@aur
-  licenses:
-    - MIT
-- repo: aur
-  srcname: fmt-git
-  binname: fmt-git
-  visiblename: fmt-git
-  version: 12.1.0.r109.g88c5a91
-  origversion: 12.1.0.r109.g88c5a91-1
-  status: rolling
-  summary: Open-source formatting library for C++
-  maintainers:
-    - abouvier@aur
-  licenses:
-    - MIT
-- repo: aur
-  srcname: fmt10
-  binname: fmt10
-  visiblename: fmt10
-  version: 10.2.1
-  origversion: 10.2.1-1
-  status: legacy
-  summary: Open-source formatting library for C++
-  maintainers:
-    - fallback-mnt-aur@repology
-  licenses:
-    - MIT
-- repo: aur
-  srcname: fmt11
-  binname: fmt11
-  visiblename: fmt11
-  version: 11.2.0
-  origversion: 11.2.0-1
-  status: outdated
-  summary: Open-source formatting library for C++ (major version 11)
-  maintainers:
-    - lcuy@aur
-  licenses:
-    - MIT
-- repo: aur
-  srcname: fmt9
-  binname: fmt9
-  visiblename: fmt9
-  version: 9.1.0
-  origversion: 9.1.0-6
-  status: legacy
-  summary: Open-source formatting library for C++
-  maintainers:
-    - abouvier@aur
   licenses:
     - MIT
 - repo: artix
@@ -873,6 +738,110 @@
   version: 11.1.1
   origversion: null
   status: legacy
+- repo: conancenter
+  srcname: fmt
+  visiblename: fmt
+  version: 11.0.2
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: fmt
+  visiblename: fmt
+  version: 11.0.0
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: fmt
+  visiblename: fmt
+  version: 10.2.1
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: fmt
+  visiblename: fmt
+  version: 10.2.0
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: fmt
+  visiblename: fmt
+  version: 10.1.1
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: fmt
+  visiblename: fmt
+  version: 10.1.0
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: fmt
+  visiblename: fmt
+  version: 10.0.0
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: fmt
+  visiblename: fmt
+  version: 9.1.0
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: fmt
+  visiblename: fmt
+  version: 9.0.0
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: fmt
+  visiblename: fmt
+  version: 8.1.1
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: fmt
+  visiblename: fmt
+  version: 8.0.1
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: fmt
+  visiblename: fmt
+  version: 7.1.3
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: fmt
+  visiblename: fmt
+  version: 6.2.1
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: fmt
+  visiblename: fmt
+  version: 5.3.0
+  origversion: null
+  status: legacy
+- repo: crux_37
+  subrepo: opt
+  srcname: fmt
+  visiblename: fmt
+  version: 11.0.2
+  origversion: null
+  status: outdated
+  summary: An open-source formatting library
+  maintainers:
+    - tbier@posteo.de
+- repo: crux_38
+  subrepo: opt
+  srcname: fmt
+  visiblename: fmt
+  version: 12.2.0
+  origversion: null
+  status: newest
+  summary: An open-source formatting library
+  maintainers:
+    - tbier@posteo.de
 - repo: debian_11
   subrepo: bullseye/main
   srcname: fmtlib
@@ -1146,23 +1115,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: release
-  srcname: fmt
-  binnames:
-    - fmt
-    - fmt-devel
-    - fmt-debuginfo
-    - fmt-debugsource
-  visiblename: fmt
-  version: 10.2.1
-  origversion: 10.2.1-4.fc40
-  status: outdated
-  summary: Small, safe and fast formatting library for C++
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: updates
   srcname: fmt
   binnames:
@@ -1173,6 +1125,23 @@
   visiblename: fmt
   version: 10.2.1
   origversion: 10.2.1-5.fc40
+  status: outdated
+  summary: Small, safe and fast formatting library for C++
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: fmt
+  binnames:
+    - fmt
+    - fmt-devel
+    - fmt-debuginfo
+    - fmt-debugsource
+  visiblename: fmt
+  version: 10.2.1
+  origversion: 10.2.1-4.fc40
   status: outdated
   summary: Small, safe and fast formatting library for C++
   licenses:
@@ -1293,89 +1262,24 @@
     - MIT
   categories:
     - dev-libs
+- repo: liguros_stable
+  srcname: dev-libs/libfmt
+  visiblename: dev-libs/libfmt
+  version: "9999"
+  origversion: null
+  status: rolling
+  summary: Small, safe and fast formatting library
+  maintainers:
+    - candrews@gentoo.org
+  licenses:
+    - MIT
+  categories:
+    - dev-libs
 - repo: gentoo
   srcname: dev-libs/libfmt
   visiblename: dev-libs/libfmt
   version: 9.1.0
   origversion: 9.1.0-r2
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - candrews@gentoo.org
-  licenses:
-    - MIT
-  categories:
-    - dev-libs
-- repo: gentoo
-  srcname: dev-libs/libfmt
-  visiblename: dev-libs/libfmt
-  version: 9.1.0
-  origversion: 9.1.0-r1
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - candrews@gentoo.org
-  licenses:
-    - MIT
-  categories:
-    - dev-libs
-- repo: gentoo
-  srcname: dev-libs/libfmt
-  visiblename: dev-libs/libfmt
-  version: 12.0.0
-  origversion: null
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - candrews@gentoo.org
-  licenses:
-    - MIT
-  categories:
-    - dev-libs
-- repo: gentoo
-  srcname: dev-libs/libfmt
-  visiblename: dev-libs/libfmt
-  version: 11.1.3
-  origversion: null
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - candrews@gentoo.org
-  licenses:
-    - MIT
-  categories:
-    - dev-libs
-- repo: gentoo
-  srcname: dev-libs/libfmt
-  visiblename: dev-libs/libfmt
-  version: 10.1.1
-  origversion: 10.1.1-r1
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - candrews@gentoo.org
-  licenses:
-    - MIT
-  categories:
-    - dev-libs
-- repo: gentoo
-  srcname: dev-libs/libfmt
-  visiblename: dev-libs/libfmt
-  version: 10.2.1
-  origversion: 10.2.1-r2
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - candrews@gentoo.org
-  licenses:
-    - MIT
-  categories:
-    - dev-libs
-- repo: gentoo
-  srcname: dev-libs/libfmt
-  visiblename: dev-libs/libfmt
-  version: 11.2.0
-  origversion: 11.2.0-r1
   status: legacy
   summary: Small, safe and fast formatting library
   maintainers:
@@ -1414,19 +1318,6 @@
   srcname: dev-libs/libfmt
   visiblename: dev-libs/libfmt
   version: 11.1.4
-  origversion: null
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - candrews@gentoo.org
-  licenses:
-    - MIT
-  categories:
-    - dev-libs
-- repo: gentoo
-  srcname: dev-libs/libfmt
-  visiblename: dev-libs/libfmt
-  version: 11.0.2
   origversion: null
   status: legacy
   summary: Small, safe and fast formatting library
@@ -1499,6 +1390,28 @@
   origversion: null
   status: newest
   summary: Open-source formatting library for C++
+- repo: homebrew
+  srcname: fmt
+  visiblename: fmt
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Open-source formatting library for C++
+- repo: kali_rolling
+  subrepo: main
+  srcname: fmtlib
+  binnames:
+    - libfmt-dev
+    - libfmt-doc
+    - libfmt11
+  visiblename: fmtlib
+  version: 11.1.1
+  origversion: 11.1.1+ds1-2
+  status: outdated
+  maintainers:
+    - zhsj@debian.org
+  categories:
+    - misc
 - repo: kaos
   subrepo: main
   srcname: fmt
@@ -1521,19 +1434,6 @@
   status: newest
   maintainers:
     - prathamin@proton.me
-- repo: liguros_stable
-  srcname: dev-libs/libfmt
-  visiblename: dev-libs/libfmt
-  version: "9999"
-  origversion: null
-  status: rolling
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - candrews@gentoo.org
-  licenses:
-    - MIT
-  categories:
-    - dev-libs
 - repo: liguros_stable
   srcname: dev-libs/libfmt
   visiblename: dev-libs/libfmt
@@ -1641,61 +1541,9 @@
 - repo: liguros_develop
   srcname: dev-libs/libfmt
   visiblename: dev-libs/libfmt
-  version: 11.2.0
-  origversion: 11.2.0-r1
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - candrews@gentoo.org
-  licenses:
-    - MIT
-  categories:
-    - dev-libs
-- repo: liguros_develop
-  srcname: dev-libs/libfmt
-  visiblename: dev-libs/libfmt
-  version: 11.0.2
-  origversion: null
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - candrews@gentoo.org
-  licenses:
-    - MIT
-  categories:
-    - dev-libs
-- repo: liguros_develop
-  srcname: dev-libs/libfmt
-  visiblename: dev-libs/libfmt
   version: "9999"
   origversion: null
   status: rolling
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - candrews@gentoo.org
-  licenses:
-    - MIT
-  categories:
-    - dev-libs
-- repo: liguros_develop
-  srcname: dev-libs/libfmt
-  visiblename: dev-libs/libfmt
-  version: 10.2.1
-  origversion: 10.2.1-r2
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - candrews@gentoo.org
-  licenses:
-    - MIT
-  categories:
-    - dev-libs
-- repo: liguros_develop
-  srcname: dev-libs/libfmt
-  visiblename: dev-libs/libfmt
-  version: 10.1.1
-  origversion: 10.1.1-r1
-  status: legacy
   summary: Small, safe and fast formatting library
   maintainers:
     - candrews@gentoo.org
@@ -1729,19 +1577,17 @@
     - MIT
   categories:
     - dev-libs
-- repo: liguros_develop
-  srcname: dev-libs/libfmt
-  visiblename: dev-libs/libfmt
+- repo: nix_stable_24_05
+  srcname: fmt_9
+  visiblename: fmt
   version: 9.1.0
-  origversion: 9.1.0-r1
+  origversion: null
   status: legacy
   summary: Small, safe and fast formatting library
   maintainers:
-    - candrews@gentoo.org
+    - qqlq@nullptr.club
   licenses:
     - MIT
-  categories:
-    - dev-libs
 - repo: liguros_develop
   srcname: dev-libs/libfmt
   visiblename: dev-libs/libfmt
@@ -1759,32 +1605,6 @@
   srcname: dev-libs/libfmt
   visiblename: dev-libs/libfmt
   version: 12.1.0
-  origversion: null
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - candrews@gentoo.org
-  licenses:
-    - MIT
-  categories:
-    - dev-libs
-- repo: liguros_develop
-  srcname: dev-libs/libfmt
-  visiblename: dev-libs/libfmt
-  version: 12.0.0
-  origversion: null
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - candrews@gentoo.org
-  licenses:
-    - MIT
-  categories:
-    - dev-libs
-- repo: liguros_develop
-  srcname: dev-libs/libfmt
-  visiblename: dev-libs/libfmt
-  version: 11.1.3
   origversion: null
   status: legacy
   summary: Small, safe and fast formatting library
@@ -2001,23 +1821,23 @@
 - repo: manjaro_unstable
   subrepo: extra
   srcname: fmt
-  binname: fmt
-  visiblename: fmt
-  version: 12.2.0
-  origversion: 12.2.0-1
-  status: newest
-  summary: Open-source formatting library for C++
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: fmt
   binname: fmt-docs
   visiblename: fmt-docs
   version: 12.2.0
   origversion: 12.2.0-1
   status: newest
   summary: Open-source formatting library for C++ (documentation)
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: fmt
+  binname: fmt
+  visiblename: fmt
+  version: 12.2.0
+  origversion: 12.2.0-1
+  status: newest
+  summary: Open-source formatting library for C++
   licenses:
     - MIT
 - repo: msys2_clang64
@@ -2060,6 +1880,17 @@
   origversion: 12.2.0-1
   status: newest
   summary: A modern formatting library for C++ (mingw-w64)
+  licenses:
+    - spdx:MIT
+- repo: msys2_msys2
+  subrepo: x86_64
+  srcname: fmt
+  binname: fmt
+  visiblename: fmt
+  version: 12.2.0
+  origversion: 12.2.0-1
+  status: newest
+  summary: Open-source formatting library for C++
   licenses:
     - spdx:MIT
 - repo: msys2_ucrt64
@@ -2108,28 +1939,6 @@
     - qqlq@nullptr.club
   licenses:
     - MIT
-- repo: nix_stable_24_05
-  srcname: fmt_9
-  visiblename: fmt
-  version: 9.1.0
-  origversion: null
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - qqlq@nullptr.club
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: fmt
-  visiblename: fmt
-  version: 10.2.1
-  origversion: null
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - qqlq@nullptr.club
-  licenses:
-    - MIT
 - repo: nix_stable_24_11
   srcname: fmt_11
   visiblename: fmt
@@ -2194,6 +2003,50 @@
   summary: Small, safe and fast formatting library
   maintainers:
     - qqlq@nullptr.club
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: fmt
+  visiblename: fmt
+  version: 12.1.0
+  origversion: null
+  status: outdated
+  summary: Small, safe and fast formatting library
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: fmt_10
+  visiblename: fmt
+  version: 10.2.1
+  origversion: null
+  status: legacy
+  summary: Small, safe and fast formatting library
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: fmt_11
+  visiblename: fmt
+  version: 11.2.0
+  origversion: null
+  status: legacy
+  summary: Small, safe and fast formatting library
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: fmt_9
+  visiblename: fmt
+  version: 9.1.0
+  origversion: null
+  status: legacy
+  summary: Small, safe and fast formatting library
+  maintainers:
+    - fallback-mnt-nix@repology
   licenses:
     - MIT
 - repo: nix_stable_26_05
@@ -2334,20 +2187,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: solus
-  srcname: fmt
-  binname: fmt-devel
-  visiblename: fmt-devel
-  version: 12.1.0
-  origversion: null
-  status: outdated
-  summary: Development files for fmt
-  maintainers:
-    - maddock.evan@vivaldi.net
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - programming.devel
 - repo: openeuler_22_03_lts_sp3
   srcname: fmt
   binnames:
@@ -2599,6 +2438,17 @@
     - BSD
   categories:
     - Development/C++
+- repo: parabola
+  subrepo: extra
+  srcname: fmt
+  binname: fmt-docs
+  visiblename: fmt-docs
+  version: 12.2.0
+  origversion: 12.2.0-1
+  status: newest
+  summary: Open-source formatting library for C++ (documentation)
+  licenses:
+    - MIT
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: fmt8
@@ -2636,6 +2486,23 @@
     - BSD
   categories:
     - Development/C++
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: fmt-9
+  binnames:
+    - fmt-9-debuginfo
+    - fmt-9-debugsource
+    - libfmt9
+    - fmt-9-devel
+  visiblename: fmt-9
+  version: 9.1.0
+  origversion: 9.1.0-1.9
+  status: legacy
+  summary: A formatting library for C++
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: openmandriva_rolling
   subrepo: main/release
   srcname: fmt
@@ -2783,25 +2650,6 @@
     - BSD
   categories:
     - Development/C++
-- repo: rosa_13
-  subrepo: main/release
-  srcname: fmt
-  binnames:
-    - lib64fmt11
-    - lib64fmt-devel
-    - fmt-debuginfo
-    - fmt-debugsource
-  visiblename: fmt
-  version: 11.2.0
-  origversion: 11.2.0-1
-  status: outdated
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - survolog@yandex.ru
-  licenses:
-    - BSD
-  categories:
-    - System/Libraries
 - repo: openmandriva_cooker
   subrepo: main/release
   srcname: fmt8
@@ -2878,23 +2726,21 @@
     - MIT
   categories:
     - Unspecified
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
-  srcname: fmt-9
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: fmtlib
   binnames:
-    - fmt-9-debuginfo
-    - fmt-9-debugsource
-    - libfmt9
-    - fmt-9-devel
-  visiblename: fmt-9
-  version: 9.1.0
-  origversion: 9.1.0-1.9
-  status: legacy
-  summary: A formatting library for C++
-  licenses:
-    - MIT
+    - libfmt-dev
+    - libfmt-doc
+    - libfmt10
+  visiblename: fmtlib
+  version: 10.1.1
+  origversion: 10.1.1+ds1-4
+  status: outdated
+  maintainers:
+    - zhsj@debian.org
   categories:
-    - Unspecified
+    - libdevel
 - repo: opensuse_games_tumbleweed
   srcname: fmt7
   binnames:
@@ -2964,28 +2810,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: parabola
-  subrepo: extra
-  srcname: fmt
-  binname: fmt-docs
-  visiblename: fmt-docs
-  version: 12.2.0
-  origversion: 12.2.0-1
-  status: newest
-  summary: Open-source formatting library for C++ (documentation)
-  licenses:
-    - MIT
-- repo: parabola
-  subrepo: extra
-  srcname: fmt
-  binname: fmt
-  visiblename: fmt
-  version: 12.2.0
-  origversion: 12.2.0-1
-  status: newest
-  summary: Open-source formatting library for C++
-  licenses:
-    - MIT
 - repo: pardus_21
   subrepo: main
   srcname: fmtlib
@@ -3047,34 +2871,6 @@
   origversion: 8.1.1-1pclos2023
   status: legacy
   summary: Small, safe and fast formatting library
-  categories:
-    - System/Libraries
-- repo: xrepo
-  srcname: fmt
-  visiblename: fmt
-  version: 8.1.1
-  origversion: null
-  status: legacy
-  summary: fmt is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams.
-  licenses:
-    - MIT
-- repo: rosa_13
-  subrepo: main/release
-  srcname: fmt10
-  binnames:
-    - lib64fmt10
-    - lib64fmt10-devel
-    - fmt10-debuginfo
-    - fmt10-debugsource
-  visiblename: fmt10
-  version: 10.2.1
-  origversion: 10.2.1-2
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - survolog@yandex.ru
-  licenses:
-    - BSD
   categories:
     - System/Libraries
 - repo: pisi_main
@@ -3170,66 +2966,6 @@
     - zhsj@debian.org
   categories:
     - libdevel
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: fmtlib
-  binnames:
-    - libfmt-dev
-    - libfmt-doc
-    - libfmt10
-  visiblename: fmtlib
-  version: 10.1.1
-  origversion: 10.1.1+ds1-4
-  status: outdated
-  maintainers:
-    - zhsj@debian.org
-  categories:
-    - libdevel
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: fmtlib
-  binnames:
-    - libfmt-dev
-    - libfmt-doc
-    - libfmt9
-  visiblename: fmtlib
-  version: 9.1.0
-  origversion: 9.1.0+ds1-2
-  status: outdated
-  maintainers:
-    - zhsj@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: fmtlib
-  binnames:
-    - libfmt-dev
-    - libfmt-doc
-    - libfmt10
-  visiblename: fmtlib
-  version: 10.1.1
-  origversion: 10.1.1+ds1-4
-  status: outdated
-  maintainers:
-    - zhsj@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: fmtlib
-  binnames:
-    - libfmt-dev
-    - libfmt-doc
-    - libfmt10
-  visiblename: fmtlib
-  version: 10.1.1
-  origversion: 10.1.1+ds1-4
-  status: outdated
-  maintainers:
-    - zhsj@debian.org
-  categories:
-    - misc
 - repo: ravenports
   srcname: fmt
   binname: fmt
@@ -3291,6 +3027,44 @@
   summary: Small, safe and fast formatting library
   maintainers:
     - a.proklov@rosalinux.ru
+  licenses:
+    - BSD
+  categories:
+    - System/Libraries
+- repo: rosa_13
+  subrepo: main/release
+  srcname: fmt
+  binnames:
+    - lib64fmt11
+    - lib64fmt-devel
+    - fmt-debuginfo
+    - fmt-debugsource
+  visiblename: fmt
+  version: 11.2.0
+  origversion: 11.2.0-1
+  status: outdated
+  summary: Small, safe and fast formatting library
+  maintainers:
+    - survolog@yandex.ru
+  licenses:
+    - BSD
+  categories:
+    - System/Libraries
+- repo: rosa_13
+  subrepo: main/release
+  srcname: fmt10
+  binnames:
+    - lib64fmt10
+    - lib64fmt10-devel
+    - fmt10-debuginfo
+    - fmt10-debugsource
+  visiblename: fmt10
+  version: 10.2.1
+  origversion: 10.2.1-2
+  status: legacy
+  summary: Small, safe and fast formatting library
+  maintainers:
+    - survolog@yandex.ru
   licenses:
     - BSD
   categories:
@@ -3381,6 +3155,49 @@
     - BSD-2-Clause
   categories:
     - debug
+- repo: solus
+  srcname: fmt
+  binname: fmt-devel
+  visiblename: fmt-devel
+  version: 12.1.0
+  origversion: null
+  status: outdated
+  summary: Development files for fmt
+  maintainers:
+    - maddock.evan@vivaldi.net
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - programming.devel
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: fmtlib
+  binnames:
+    - libfmt-dev
+    - libfmt-doc
+  visiblename: fmtlib
+  version: 6.1.2
+  origversion: 6.1.2+ds-2
+  status: outdated
+  maintainers:
+    - jackyf@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: fmtlib
+  binnames:
+    - libfmt-dev
+    - libfmt-doc
+    - libfmt8
+  visiblename: fmtlib
+  version: 8.1.1
+  origversion: 8.1.1+ds1-2
+  status: outdated
+  maintainers:
+    - zhsj@debian.org
+  categories:
+    - universe/misc
 - repo: spack
   srcname: fmt
   visiblename: fmt
@@ -3412,6 +3229,27 @@
     - anton@samokhvalov.xyz
   categories:
     - lib
+- repo: stalix_dev
+  srcname: lib/fmt/12
+  binname: lib/fmt/12
+  visiblename: lib/fmt/12
+  version: 12.2.0
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - lib
+- repo: starkos
+  subrepo: main
+  srcname: fmt
+  visiblename: fmt
+  version: 12.2.0
+  origversion: 12.2.0-1
+  status: newest
+  summary: An open-source formatting library
+  maintainers:
+    - starkos@disroot.org
 - repo: t2
   srcname: fmt
   visiblename: fmt
@@ -3435,35 +3273,6 @@
   summary: Open-source formatting library for C++
   maintainers:
     - termux@github
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: fmtlib
-  binnames:
-    - libfmt-dev
-    - libfmt-doc
-  visiblename: fmtlib
-  version: 6.1.2
-  origversion: 6.1.2+ds-2
-  status: outdated
-  maintainers:
-    - jackyf@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: fmtlib
-  binnames:
-    - libfmt-dev
-    - libfmt-doc
-    - libfmt8
-  visiblename: fmtlib
-  version: 8.1.1
-  origversion: 8.1.1+ds1-2
-  status: outdated
-  maintainers:
-    - zhsj@debian.org
-  categories:
-    - universe/misc
 - repo: ubuntu_24_04
   subrepo: noble/universe
   srcname: fmtlib
@@ -3631,6 +3440,15 @@
   srcname: fmt
   visiblename: fmt
   version: 8.0.1
+  origversion: null
+  status: legacy
+  summary: fmt is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams.
+  licenses:
+    - MIT
+- repo: xrepo
+  srcname: fmt
+  visiblename: fmt
+  version: 8.1.1
   origversion: null
   status: legacy
   summary: fmt is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams.
@@ -3820,18 +3638,6 @@
   summary: Modern formatting library
   categories:
     - Libs
-- repo: epel_6
-  srcname: fmt
-  visiblename: fmt
-  version: 3.0.2
-  origversion: 3.0.2-1.el6
-  status: outdated
-  summary: Small, safe and fast formatting library for C++
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: raspbian_oldstable
   subrepo: main
   srcname: cppformat
@@ -3877,6 +3683,30 @@
   categories:
     - misc
   vulnerable: true
+- repo: epel_6
+  srcname: cppformat
+  visiblename: cppformat
+  version: 2.0.0
+  origversion: 2.0.0-1.el6
+  status: legacy
+  summary: Small, safe and fast formatting library for C++
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: epel_6
+  srcname: fmt
+  visiblename: fmt
+  version: 3.0.2
+  origversion: 3.0.2-1.el6
+  status: outdated
+  summary: Small, safe and fast formatting library for C++
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: ubuntu_16_04
   subrepo: xenial/universe
   srcname: cppformat
@@ -3906,16 +3736,4 @@
     - jackyf@debian.org
   categories:
     - universe/misc
-  vulnerable: true
-- repo: epel_6
-  srcname: cppformat
-  visiblename: cppformat
-  version: 2.0.0
-  origversion: 2.0.0-1.el6
-  status: legacy
-  summary: Small, safe and fast formatting library for C++
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
   vulnerable: true
