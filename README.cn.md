@@ -46,22 +46,22 @@ x install fmt
 
 ## 流行度
 
-- **Star**: 25,903 · **Fork**: 3,095 · **开放 issue**: 3,038 · **贡献者**: 604
+- **Star**: 25,906 · **Fork**: 3,096 · **开放 issue**: 3,038 · **贡献者**: 604
 
 ## 累计统计
 
-- **发布数**: 58 · **已合并 PR**: 1381 · **开放 PR**: 8 · **已关闭 issue**: 3033 · **开放 issue**: 5 · **提交数**: 8059
+- **发布数**: 58 · **已合并 PR**: 1381 · **开放 PR**: 9 · **已关闭 issue**: 3033 · **开放 issue**: 5 · **提交数**: 8059
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 14 | 8 | 6 | 2 | 27 |
-| last60d | 2026-09-04 | 0 | 41 | 8 | 20 | 2 | 66 |
-| 90d | 2026-08-05 | 0 | 61 | 8 | 28 | 2 | 116 |
-| last180d | 2026-05-07 | 1 | 92 | 8 | 70 | 2 | 215 |
-| 360d | 2025-11-08 | 1 | 149 | 8 | 145 | 3 | 361 |
-| last720d | 2024-11-13 | 9 | 252 | 8 | 354 | 5 | 737 |
+| 30d | 2026-10-05 | 0 | 13 | 9 | 5 | 2 | 27 |
+| last60d | 2026-09-05 | 0 | 38 | 9 | 15 | 2 | 66 |
+| 90d | 2026-08-06 | 0 | 61 | 9 | 28 | 2 | 116 |
+| last180d | 2026-05-08 | 1 | 92 | 9 | 70 | 2 | 215 |
+| 360d | 2025-11-09 | 1 | 149 | 9 | 145 | 3 | 361 |
+| last720d | 2024-11-14 | 9 | 251 | 9 | 353 | 5 | 735 |
 
 ## Release 资产
 
@@ -72,7 +72,7 @@ x install fmt
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/fmt) 上共有 **318** 个发行版报告此项目。**58** 个 ✅ 已是最新上游版本，**124** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/fmt) 上共有 **304** 个发行版报告此项目。**58** 个 ✅ 已是最新上游版本，**124** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -82,12 +82,12 @@ x install fmt
 | Ubuntu 26.04 LTS | `10.1.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `9.1.0` | ⚠️ outdated |
 | Arch | `12.2.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `12.2.0` | ✅ latest |
 | Fedora rawhide | `12.1.0` | ⚠️ outdated |
 | Nix unstable | `12.2.0` | ✅ latest |
 | Void | `12.1.0` | ⚠️ outdated |
 | Alpine edge | `12.2.0` | ✅ latest |
-| openSUSE Tumbleweed | `10.2.1` | 🪦 legacy |
+| openSUSE Tumbleweed | `9.1.0` | 🪦 legacy |
 
 ## 改进这些数据
 
@@ -98,4 +98,4 @@ fmt 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261103.yml` · 2026-11-03T07:27:59Z._
+_数据快照: `data/card/261104.yml` · 2026-11-04T06:55:51Z._

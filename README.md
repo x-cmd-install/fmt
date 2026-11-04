@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,903 · **Forks**: 3,095 · **Open issues**: 3,038 · **Contributors**: 604
+- **Stars**: 25,906 · **Forks**: 3,096 · **Open issues**: 3,038 · **Contributors**: 604
 
 ## Totals (cumulative)
 
-- **Releases**: 58 · **Merged PRs**: 1381 · **Open PRs**: 8 · **Closed issues**: 3033 · **Open issues**: 5 · **Commits**: 8059
+- **Releases**: 58 · **Merged PRs**: 1381 · **Open PRs**: 9 · **Closed issues**: 3033 · **Open issues**: 5 · **Commits**: 8059
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 14 | 8 | 6 | 2 | 27 |
-| last60d | 2026-09-04 | 0 | 41 | 8 | 20 | 2 | 66 |
-| 90d | 2026-08-05 | 0 | 61 | 8 | 28 | 2 | 116 |
-| last180d | 2026-05-07 | 1 | 92 | 8 | 70 | 2 | 215 |
-| 360d | 2025-11-08 | 1 | 149 | 8 | 145 | 3 | 361 |
-| last720d | 2024-11-13 | 9 | 252 | 8 | 354 | 5 | 737 |
+| 30d | 2026-10-05 | 0 | 13 | 9 | 5 | 2 | 27 |
+| last60d | 2026-09-05 | 0 | 38 | 9 | 15 | 2 | 66 |
+| 90d | 2026-08-06 | 0 | 61 | 9 | 28 | 2 | 116 |
+| last180d | 2026-05-08 | 1 | 92 | 9 | 70 | 2 | 215 |
+| 360d | 2025-11-09 | 1 | 149 | 9 | 145 | 3 | 361 |
+| last720d | 2024-11-14 | 9 | 251 | 9 | 353 | 5 | 735 |
 
 ## Release assets
 
@@ -72,7 +72,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **318** distros on [repology.org](https://repology.org/project/fmt). **58** are ✅ on the latest upstream release, **124** are ⚠️ on an older version.
+Reported by **304** distros on [repology.org](https://repology.org/project/fmt). **58** are ✅ on the latest upstream release, **124** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -82,12 +82,12 @@ Reported by **318** distros on [repology.org](https://repology.org/project/fmt).
 | Ubuntu 26.04 LTS | `10.1.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `9.1.0` | ⚠️ outdated |
 | Arch | `12.2.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `12.2.0` | ✅ latest |
 | Fedora rawhide | `12.1.0` | ⚠️ outdated |
 | Nix unstable | `12.2.0` | ✅ latest |
 | Void | `12.1.0` | ⚠️ outdated |
 | Alpine edge | `12.2.0` | ✅ latest |
-| openSUSE Tumbleweed | `10.2.1` | 🪦 legacy |
+| openSUSE Tumbleweed | `9.1.0` | 🪦 legacy |
 
 ## Improve this data
 
@@ -98,4 +98,4 @@ Install metadata for fmt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T07:27:58Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T06:55:50Z._
