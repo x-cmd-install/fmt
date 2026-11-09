@@ -14,12 +14,12 @@ x install fmt
 
 ## Code insight
 
-Total: **51,428** lines of code across **91** files in the top 5 languages.
+Total: **51,420** lines of code across **91** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| CHeader | 27,481 | 10,164 | 5,279 | 26 |
-| Cpp | 21,181 | 3,337 | 3,318 | 47 |
+| CHeader | 27,427 | 10,166 | 5,272 | 26 |
+| Cpp | 21,227 | 3,338 | 3,322 | 47 |
 | Python | 1,298 | 67 | 233 | 6 |
 | CMake | 1,124 | 166 | 149 | 11 |
 | Css | 103 | 1 | 13 | 1 |
@@ -30,8 +30,8 @@ Overall score: **8.6 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (3/10) — Found 9/30 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (3/10) — Found 11/29 approved changesets -- score normalized to 3
 - **Branch-Protection** (1/10) — branch protection is not maximal on development and all release branches
 
 ## Source
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,914 · **Forks**: 3,095 · **Open issues**: 3,039 · **Contributors**: 608
+- **Stars**: 25,915 · **Forks**: 3,095 · **Open issues**: 3,039 · **Contributors**: 609
 
 ## Totals (cumulative)
 
-- **Releases**: 59 · **Merged PRs**: 1388 · **Open PRs**: 7 · **Closed issues**: 3034 · **Open issues**: 5 · **Commits**: 8080
+- **Releases**: 59 · **Merged PRs**: 1389 · **Open PRs**: 5 · **Closed issues**: 3035 · **Open issues**: 4 · **Commits**: 8088
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 1 | 15 | 7 | 4 | 2 | 46 |
-| last60d | 2026-09-09 | 1 | 39 | 7 | 14 | 2 | 76 |
-| 90d | 2026-08-10 | 1 | 67 | 7 | 29 | 2 | 132 |
-| last180d | 2026-05-12 | 2 | 99 | 7 | 70 | 2 | 236 |
-| 360d | 2025-11-13 | 2 | 156 | 7 | 143 | 3 | 381 |
-| last720d | 2024-11-18 | 10 | 258 | 7 | 352 | 5 | 752 |
+| 30d | 2026-10-10 | 1 | 16 | 5 | 5 | 1 | 54 |
+| last60d | 2026-09-10 | 1 | 36 | 5 | 14 | 1 | 84 |
+| 90d | 2026-08-11 | 1 | 68 | 5 | 30 | 1 | 140 |
+| last180d | 2026-05-13 | 2 | 99 | 5 | 71 | 1 | 244 |
+| 360d | 2025-11-14 | 2 | 157 | 5 | 143 | 2 | 389 |
+| last720d | 2024-11-19 | 10 | 259 | 5 | 353 | 4 | 760 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **307** distros on [repology.org](https://repology.org/project/fmt). **14** are ✅ on the latest upstream release, **171** are ⚠️ on an older version.
+Reported by **308** distros on [repology.org](https://repology.org/project/fmt). **22** are ✅ on the latest upstream release, **164** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,4 +100,4 @@ Install metadata for fmt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:41:58Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T07:00:52Z._
