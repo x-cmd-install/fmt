@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,919 · **Forks**: 3,097 · **Open issues**: 3,038 · **Contributors**: 609
+- **Stars**: 25,921 · **Forks**: 3,097 · **Open issues**: 3,038 · **Contributors**: 609
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 1 | 16 | 5 | 5 | 1 | 54 |
-| last60d | 2026-09-11 | 1 | 36 | 5 | 13 | 1 | 84 |
-| 90d | 2026-08-12 | 1 | 68 | 5 | 29 | 1 | 140 |
-| last180d | 2026-05-14 | 2 | 99 | 5 | 70 | 1 | 244 |
-| 360d | 2025-11-15 | 2 | 157 | 5 | 142 | 2 | 389 |
-| last720d | 2024-11-20 | 10 | 259 | 5 | 352 | 4 | 758 |
+| 30d | 2026-10-12 | 1 | 16 | 5 | 5 | 1 | 54 |
+| last60d | 2026-09-12 | 1 | 36 | 5 | 12 | 1 | 84 |
+| 90d | 2026-08-13 | 1 | 67 | 5 | 28 | 1 | 140 |
+| last180d | 2026-05-15 | 2 | 99 | 5 | 70 | 1 | 244 |
+| 360d | 2025-11-16 | 2 | 157 | 5 | 142 | 2 | 389 |
+| last720d | 2024-11-21 | 10 | 259 | 5 | 350 | 4 | 758 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **307** distros on [repology.org](https://repology.org/project/fmt). **24** are ✅ on the latest upstream release, **161** are ⚠️ on an older version.
+Reported by **307** distros on [repology.org](https://repology.org/project/fmt). **28** are ✅ on the latest upstream release, **157** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,4 +100,4 @@ Install metadata for fmt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T07:56:04Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T07:25:30Z._
