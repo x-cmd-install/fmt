@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 20187,
       "digest": "sha256:86010a88095de62f0592338ba9d6f7fd90a632c3ac1a7c49065641560d48f7f5",
-      "download_count": 16,
+      "download_count": 17,
       "created_at": "2026-11-07T16:42:52Z",
       "updated_at": "2026-11-07T16:42:53Z",
       "browser_download_url": "https://github.com/fmtlib/fmt/releases/download/12.2.1/fmt-12.2.1.intoto.jsonl"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 1487547,
       "digest": "sha256:870a49acec5bcdab236aeea834ebd7f0b8548a7d8cea33c996b6873a37f2d50c",
-      "download_count": 15800,
+      "download_count": 20032,
       "created_at": "2026-11-07T16:41:38Z",
       "updated_at": "2026-11-07T16:41:38Z",
       "browser_download_url": "https://github.com/fmtlib/fmt/releases/download/12.2.1/fmt-12.2.1.zip"
@@ -114,13 +114,13 @@
   "body": "- Fixed a heap buffer overflow on 32-bit targets when the size of a formatting buffer overflows, e.g. `fmt::format(L\"{:>{}}\", s, 1100000000)`. Such allocations now throw `std::bad_alloc`.\r\n\r\n- Fixed an out-of-bounds read when parsing format specifiers of `std::error_code` (https://github.com/fmtlib/fmt/pull/4934). Thanks @IfkumRfnl.\r\n\r\n- Fixed a crash when formatting `nullptr` with `FMT_COMPILE` and an exception in `fmt::to_string(nullptr)`; both now format it as `0x0` (https://github.com/fmtlib/fmt/pull/4993). Thanks @INo-xious.\r\n\r\n",
   "reactions": {
     "url": "https://api.github.com/repos/fmtlib/fmt/releases/437699696/reactions",
-    "total_count": 11,
-    "+1": 3,
+    "total_count": 14,
+    "+1": 4,
     "-1": 0,
     "laugh": 0,
-    "hooray": 3,
+    "hooray": 4,
     "confused": 0,
-    "heart": 5,
+    "heart": 6,
     "rocket": 0,
     "eyes": 0
   },
