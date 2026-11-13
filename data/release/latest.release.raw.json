@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 20187,
       "digest": "sha256:86010a88095de62f0592338ba9d6f7fd90a632c3ac1a7c49065641560d48f7f5",
-      "download_count": 17,
+      "download_count": 19,
       "created_at": "2026-11-07T16:42:52Z",
       "updated_at": "2026-11-07T16:42:53Z",
       "browser_download_url": "https://github.com/fmtlib/fmt/releases/download/12.2.1/fmt-12.2.1.intoto.jsonl"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 1487547,
       "digest": "sha256:870a49acec5bcdab236aeea834ebd7f0b8548a7d8cea33c996b6873a37f2d50c",
-      "download_count": 20032,
+      "download_count": 23934,
       "created_at": "2026-11-07T16:41:38Z",
       "updated_at": "2026-11-07T16:41:38Z",
       "browser_download_url": "https://github.com/fmtlib/fmt/releases/download/12.2.1/fmt-12.2.1.zip"
