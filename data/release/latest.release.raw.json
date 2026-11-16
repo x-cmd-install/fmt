@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 1487547,
       "digest": "sha256:870a49acec5bcdab236aeea834ebd7f0b8548a7d8cea33c996b6873a37f2d50c",
-      "download_count": 30447,
+      "download_count": 33778,
       "created_at": "2026-11-07T16:41:38Z",
       "updated_at": "2026-11-07T16:41:38Z",
       "browser_download_url": "https://github.com/fmtlib/fmt/releases/download/12.2.1/fmt-12.2.1.zip"
