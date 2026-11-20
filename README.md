@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,932 · **Forks**: 3,108 · **Open issues**: 3,040 · **Contributors**: 611
+- **Stars**: 25,938 · **Forks**: 3,112 · **Open issues**: 3,041 · **Contributors**: 611
 
 ## Totals (cumulative)
 
-- **Releases**: 59 · **Merged PRs**: 1392 · **Open PRs**: 10 · **Closed issues**: 3037 · **Open issues**: 3 · **Commits**: 8101
+- **Releases**: 59 · **Merged PRs**: 1392 · **Open PRs**: 12 · **Closed issues**: 3037 · **Open issues**: 4 · **Commits**: 8101
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 1 | 11 | 10 | 6 | 1 | 57 |
-| last60d | 2026-09-20 | 1 | 34 | 10 | 13 | 1 | 87 |
-| 90d | 2026-08-21 | 1 | 69 | 10 | 30 | 1 | 151 |
-| last180d | 2026-05-23 | 2 | 101 | 10 | 72 | 1 | 254 |
-| 360d | 2025-11-24 | 2 | 159 | 10 | 140 | 2 | 392 |
-| last720d | 2024-11-29 | 10 | 261 | 10 | 349 | 3 | 771 |
+| 30d | 2026-10-21 | 1 | 11 | 11 | 6 | 2 | 57 |
+| last60d | 2026-09-21 | 1 | 34 | 12 | 13 | 2 | 87 |
+| 90d | 2026-08-22 | 1 | 69 | 12 | 30 | 2 | 151 |
+| last180d | 2026-05-24 | 2 | 101 | 12 | 71 | 2 | 254 |
+| 360d | 2025-11-25 | 2 | 159 | 12 | 140 | 3 | 392 |
+| last720d | 2024-11-30 | 10 | 261 | 12 | 349 | 4 | 770 |
 
 ## Release assets
 
@@ -100,4 +100,4 @@ Install metadata for fmt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T07:52:39Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T07:36:10Z._
