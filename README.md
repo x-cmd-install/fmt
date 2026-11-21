@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,938 · **Forks**: 3,112 · **Open issues**: 3,041 · **Contributors**: 611
+- **Stars**: 25,939 · **Forks**: 3,113 · **Open issues**: 3,041 · **Contributors**: 611
 
 ## Totals (cumulative)
 
-- **Releases**: 59 · **Merged PRs**: 1392 · **Open PRs**: 12 · **Closed issues**: 3037 · **Open issues**: 4 · **Commits**: 8101
+- **Releases**: 59 · **Merged PRs**: 1392 · **Open PRs**: 12 · **Closed issues**: 3038 · **Open issues**: 3 · **Commits**: 8101
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 1 | 11 | 11 | 6 | 2 | 57 |
-| last60d | 2026-09-21 | 1 | 34 | 12 | 13 | 2 | 87 |
-| 90d | 2026-08-22 | 1 | 69 | 12 | 30 | 2 | 151 |
-| last180d | 2026-05-24 | 2 | 101 | 12 | 71 | 2 | 254 |
-| 360d | 2025-11-25 | 2 | 159 | 12 | 140 | 3 | 392 |
-| last720d | 2024-11-30 | 10 | 261 | 12 | 349 | 4 | 770 |
+| 30d | 2026-10-22 | 1 | 11 | 11 | 7 | 1 | 57 |
+| last60d | 2026-09-22 | 1 | 34 | 12 | 14 | 1 | 87 |
+| 90d | 2026-08-23 | 1 | 67 | 12 | 30 | 1 | 151 |
+| last180d | 2026-05-25 | 2 | 101 | 12 | 72 | 1 | 254 |
+| 360d | 2025-11-26 | 2 | 159 | 12 | 140 | 2 | 392 |
+| last720d | 2024-12-01 | 10 | 260 | 12 | 349 | 3 | 770 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **306** distros on [repology.org](https://repology.org/project/fmt). **35** are ✅ on the latest upstream release, **147** are ⚠️ on an older version.
+Reported by **306** distros on [repology.org](https://repology.org/project/fmt). **36** are ✅ on the latest upstream release, **146** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,4 +100,4 @@ Install metadata for fmt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T07:36:10Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T08:46:21Z._
