@@ -1,53 +1,127 @@
-- repo: pclinuxos
+- repo: crux_38
+  subrepo: opt
   srcname: fmt
   visiblename: fmt
-  version: 8.1.1
-  origversion: 8.1.1-1pclos2023
+  version: 12.2.1
+  origversion: null
+  status: newest
+  summary: An open-source formatting library
+  maintainers:
+    - tbier@posteo.de
+- repo: nix_stable_24_05
+  srcname: fmt_9
+  visiblename: fmt
+  version: 9.1.0
+  origversion: null
   status: legacy
   summary: Small, safe and fast formatting library
-  categories:
-    - System/Libraries
-- repo: raspbian_stable
-  subrepo: main
+  maintainers:
+    - qqlq@nullptr.club
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: fmt
+  visiblename: fmt
+  version: 10.2.1
+  origversion: null
+  status: legacy
+  summary: Small, safe and fast formatting library
+  maintainers:
+    - qqlq@nullptr.club
+  licenses:
+    - MIT
+- repo: ptxdist
+  srcname: fmt
+  visiblename: fmt
+  version: 11.2.0
+  origversion: null
+  status: outdated
+  licenses:
+    - MIT WITH fmt-exception
+- repo: pureos_amber
+  subrepo: amber/main
   srcname: fmtlib
   binnames:
     - libfmt-dev
     - libfmt-doc
-    - libfmt10
   visiblename: fmtlib
-  version: 10.1.1
-  origversion: 10.1.1+ds1-4
+  version: 5.2.1
+  origversion: 5.2.1+ds-2
   status: outdated
   maintainers:
-    - zhsj@debian.org
+    - jackyf@debian.org
   categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
+    - libdevel
+- repo: pureos_byzantium
+  subrepo: byzantium/main
   srcname: fmtlib
   binnames:
     - libfmt-dev
     - libfmt-doc
-    - libfmt10
+    - libfmt7
   visiblename: fmtlib
-  version: 10.1.1
-  origversion: 10.1.1+ds1-4
+  version: 7.1.3
+  origversion: 7.1.3+ds1-5
   status: outdated
   maintainers:
     - zhsj@debian.org
   categories:
-    - misc
-- repo: artix
-  subrepo: world
+    - libdevel
+- repo: void_x86_64
+  subrepo: x86_64
   srcname: fmt
   binname: fmt
   visiblename: fmt
+  version: 12.1.0
+  origversion: 12.1.0_1
+  status: outdated
+  summary: Modern formatting library
+  maintainers:
+    - dem.procopiou@gmail.com
+  licenses:
+    - MIT WITH fmt-exception
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: fmtlib
+  binnames:
+    - libfmt-dev
+    - libfmt-doc
+    - libfmt10
+  visiblename: fmtlib
+  version: 10.1.1
+  origversion: 10.1.1+ds1-4
+  status: outdated
+  maintainers:
+    - zhsj@debian.org
+  categories:
+    - libdevel
+- repo: aur
+  srcname: android-riscv64-fmt
+  binname: android-riscv64-fmt
+  visiblename: android-riscv64-fmt
   version: 12.2.0
   origversion: 12.2.0-1
   status: outdated
-  summary: Open-source formatting library for C++
+  summary: Open-source formatting library for C++ (Android riscv64)
+  maintainers:
+    - hipersayan_x@aur
   licenses:
     - MIT
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: fmtlib
+  binnames:
+    - libfmt-dev
+    - libfmt-doc
+    - libfmt9
+  visiblename: fmtlib
+  version: 9.1.0
+  origversion: 9.1.0+ds1-2
+  status: outdated
+  maintainers:
+    - zhsj@debian.org
+  categories:
+    - misc
 - repo: aerynos
   srcname: fmt
   visiblename: fmt
@@ -317,6 +391,12 @@
     - achill@achill.org
   licenses:
     - MIT
+- repo: conancenter
+  srcname: fmt
+  visiblename: fmt
+  version: 11.1.1
+  origversion: null
+  status: legacy
 - repo: alpine_3_24
   subrepo: main
   srcname: fmt
@@ -373,18 +453,6 @@
     - BSD
   categories:
     - System/Libraries
-- repo: aur
-  srcname: android-riscv64-fmt
-  binname: android-riscv64-fmt
-  visiblename: android-riscv64-fmt
-  version: 12.2.0
-  origversion: 12.2.0-1
-  status: outdated
-  summary: Open-source formatting library for C++ (Android riscv64)
-  maintainers:
-    - hipersayan_x@aur
-  licenses:
-    - MIT
 - repo: altsisyphus
   srcname: fmt
   binnames:
@@ -502,15 +570,51 @@
   licenses:
     - MIT
 - repo: aur
-  srcname: mingw-w64-fmt
-  binname: mingw-w64-fmt
-  visiblename: mingw-w64-fmt
-  version: 12.2.1
-  origversion: 12.2.1-1
-  status: newest
-  summary: Open-source formatting library for C++ (mingw-w64)
+  srcname: android-aarch64-fmt
+  binname: android-aarch64-fmt
+  visiblename: android-aarch64-fmt
+  version: 12.2.0
+  origversion: 12.2.0-1
+  status: outdated
+  summary: Open-source formatting library for C++ (Android aarch64)
   maintainers:
-    - patlefort@aur
+    - hipersayan_x@aur
+  licenses:
+    - MIT
+- repo: aur
+  srcname: android-armv7a-eabi-fmt
+  binname: android-armv7a-eabi-fmt
+  visiblename: android-armv7a-eabi-fmt
+  version: 12.2.0
+  origversion: 12.2.0-1
+  status: outdated
+  summary: Open-source formatting library for C++ (Android armv7a-eabi)
+  maintainers:
+    - hipersayan_x@aur
+  licenses:
+    - MIT
+- repo: aur
+  srcname: android-x86-64-fmt
+  binname: android-x86-64-fmt
+  visiblename: android-x86-64-fmt
+  version: 12.2.0
+  origversion: 12.2.0-1
+  status: outdated
+  summary: Open-source formatting library for C++ (Android x86-64)
+  maintainers:
+    - hipersayan_x@aur
+  licenses:
+    - MIT
+- repo: aur
+  srcname: android-x86-fmt
+  binname: android-x86-fmt
+  visiblename: android-x86-fmt
+  version: 12.2.0
+  origversion: 12.2.0-1
+  status: outdated
+  summary: Open-source formatting library for C++ (Android x86)
+  maintainers:
+    - hipersayan_x@aur
   licenses:
     - MIT
 - repo: aur
@@ -562,51 +666,15 @@
   licenses:
     - MIT
 - repo: aur
-  srcname: android-aarch64-fmt
-  binname: android-aarch64-fmt
-  visiblename: android-aarch64-fmt
-  version: 12.2.0
-  origversion: 12.2.0-1
-  status: outdated
-  summary: Open-source formatting library for C++ (Android aarch64)
+  srcname: mingw-w64-fmt
+  binname: mingw-w64-fmt
+  visiblename: mingw-w64-fmt
+  version: 12.2.1
+  origversion: 12.2.1-1
+  status: newest
+  summary: Open-source formatting library for C++ (mingw-w64)
   maintainers:
-    - hipersayan_x@aur
-  licenses:
-    - MIT
-- repo: aur
-  srcname: android-armv7a-eabi-fmt
-  binname: android-armv7a-eabi-fmt
-  visiblename: android-armv7a-eabi-fmt
-  version: 12.2.0
-  origversion: 12.2.0-1
-  status: outdated
-  summary: Open-source formatting library for C++ (Android armv7a-eabi)
-  maintainers:
-    - hipersayan_x@aur
-  licenses:
-    - MIT
-- repo: aur
-  srcname: android-x86-64-fmt
-  binname: android-x86-64-fmt
-  visiblename: android-x86-64-fmt
-  version: 12.2.0
-  origversion: 12.2.0-1
-  status: outdated
-  summary: Open-source formatting library for C++ (Android x86-64)
-  maintainers:
-    - hipersayan_x@aur
-  licenses:
-    - MIT
-- repo: aur
-  srcname: android-x86-fmt
-  binname: android-x86-fmt
-  visiblename: android-x86-fmt
-  version: 12.2.0
-  origversion: 12.2.0-1
-  status: outdated
-  summary: Open-source formatting library for C++ (Android x86)
-  maintainers:
-    - hipersayan_x@aur
+    - patlefort@aur
   licenses:
     - MIT
 - repo: artix
@@ -618,6 +686,17 @@
   origversion: 12.2.0-1
   status: outdated
   summary: Open-source formatting library for C++ (documentation)
+  licenses:
+    - MIT
+- repo: artix
+  subrepo: world
+  srcname: fmt
+  binname: fmt
+  visiblename: fmt
+  version: 12.2.0
+  origversion: 12.2.0-1
+  status: outdated
+  summary: Open-source formatting library for C++
   licenses:
     - MIT
 - repo: chimera
@@ -701,12 +780,6 @@
 - repo: conancenter
   srcname: fmt
   visiblename: fmt
-  version: 11.1.1
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: fmt
-  visiblename: fmt
   version: 11.0.2
   origversion: null
   status: legacy
@@ -722,17 +795,6 @@
   version: 11.0.0
   origversion: null
   status: legacy
-- repo: nix_stable_24_11
-  srcname: fmt_8
-  visiblename: fmt
-  version: 8.1.1
-  origversion: null
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - qqlq@nullptr.club
-  licenses:
-    - MIT
 - repo: conancenter
   srcname: fmt
   visiblename: fmt
@@ -815,16 +877,6 @@
   summary: An open-source formatting library
   maintainers:
     - tbier@posteo.de
-- repo: crux_38
-  subrepo: opt
-  srcname: fmt
-  visiblename: fmt
-  version: 12.2.1
-  origversion: null
-  status: newest
-  summary: An open-source formatting library
-  maintainers:
-    - tbier@posteo.de
 - repo: debian_11
   subrepo: bullseye/main
   srcname: fmtlib
@@ -835,6 +887,21 @@
   visiblename: fmtlib
   version: 7.1.3
   origversion: 7.1.3+ds1-5
+  status: outdated
+  maintainers:
+    - zhsj@debian.org
+  categories:
+    - misc
+- repo: kali_rolling
+  subrepo: main
+  srcname: fmtlib
+  binnames:
+    - libfmt-dev
+    - libfmt-doc
+    - libfmt11
+  visiblename: fmtlib
+  version: 11.1.1
+  origversion: 11.1.1+ds1-2
   status: outdated
   maintainers:
     - zhsj@debian.org
@@ -880,7 +947,22 @@
   visiblename: fmtlib
   version: 11.1.1
   origversion: 11.1.1+ds1-2
-  status: outdated
+  status: legacy
+  maintainers:
+    - zhsj@debian.org
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: fmtlib
+  binnames:
+    - libfmt-dev
+    - libfmt-doc
+    - libfmt12
+  visiblename: fmtlib
+  version: 12.2.1
+  origversion: 12.2.1+ds1-1
+  status: newest
   maintainers:
     - zhsj@debian.org
   categories:
@@ -1384,21 +1466,6 @@
   origversion: null
   status: rolling
   summary: Open-source formatting library for C++
-- repo: kali_rolling
-  subrepo: main
-  srcname: fmtlib
-  binnames:
-    - libfmt-dev
-    - libfmt-doc
-    - libfmt11
-  visiblename: fmtlib
-  version: 11.1.1
-  origversion: 11.1.1+ds1-2
-  status: outdated
-  maintainers:
-    - zhsj@debian.org
-  categories:
-    - misc
 - repo: kaos
   subrepo: main
   srcname: fmt
@@ -1551,6 +1618,21 @@
     - MIT
   categories:
     - dev-libs
+- repo: raspbian_stable
+  subrepo: main
+  srcname: fmtlib
+  binnames:
+    - libfmt-dev
+    - libfmt-doc
+    - libfmt10
+  visiblename: fmtlib
+  version: 10.1.1
+  origversion: 10.1.1+ds1-4
+  status: outdated
+  maintainers:
+    - zhsj@debian.org
+  categories:
+    - misc
 - repo: liguros_develop
   srcname: dev-libs/libfmt
   visiblename: dev-libs/libfmt
@@ -1577,17 +1659,6 @@
     - MIT
   categories:
     - dev-libs
-- repo: nix_stable_24_11
-  srcname: fmt_9
-  visiblename: fmt
-  version: 9.1.0
-  origversion: null
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - qqlq@nullptr.club
-  licenses:
-    - MIT
 - repo: liguros_develop
   srcname: dev-libs/libfmt
   visiblename: dev-libs/libfmt
@@ -1702,6 +1773,17 @@
     - MIT
   categories:
     - devel
+- repo: nix_stable_24_05
+  srcname: fmt_8
+  visiblename: fmt
+  version: 8.1.1
+  origversion: null
+  status: legacy
+  summary: Small, safe and fast formatting library
+  maintainers:
+    - qqlq@nullptr.club
+  licenses:
+    - MIT
 - repo: mageia_10
   subrepo: core/release
   srcname: fmt
@@ -1787,23 +1869,23 @@
 - repo: manjaro_testing
   subrepo: extra
   srcname: fmt
-  binname: fmt
-  visiblename: fmt
-  version: 12.2.0
-  origversion: 12.2.0-1
-  status: outdated
-  summary: Open-source formatting library for C++
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: fmt
   binname: fmt-docs
   visiblename: fmt-docs
   version: 12.2.0
   origversion: 12.2.0-1
   status: outdated
   summary: Open-source formatting library for C++ (documentation)
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: fmt
+  binname: fmt
+  visiblename: fmt
+  version: 12.2.0
+  origversion: 12.2.0-1
+  status: outdated
+  summary: Open-source formatting library for C++
   licenses:
     - MIT
 - repo: manjaro_unstable
@@ -1905,7 +1987,18 @@
     - qqlq@nullptr.club
   licenses:
     - MIT
-- repo: nix_stable_24_05
+- repo: nix_stable_24_11
+  srcname: fmt_11
+  visiblename: fmt
+  version: 11.0.2
+  origversion: null
+  status: outdated
+  summary: Small, safe and fast formatting library
+  maintainers:
+    - qqlq@nullptr.club
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
   srcname: fmt_8
   visiblename: fmt
   version: 8.1.1
@@ -1916,34 +2009,12 @@
     - qqlq@nullptr.club
   licenses:
     - MIT
-- repo: nix_stable_24_05
+- repo: nix_stable_24_11
   srcname: fmt_9
   visiblename: fmt
   version: 9.1.0
   origversion: null
   status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - qqlq@nullptr.club
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: fmt
-  visiblename: fmt
-  version: 10.2.1
-  origversion: null
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - qqlq@nullptr.club
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: fmt_11
-  visiblename: fmt
-  version: 11.0.2
-  origversion: null
-  status: outdated
   summary: Small, safe and fast formatting library
   maintainers:
     - qqlq@nullptr.club
@@ -2228,6 +2299,21 @@
     - MIT
   categories:
     - Unspecified
+- repo: raspbian_testing
+  subrepo: main
+  srcname: fmtlib
+  binnames:
+    - libfmt-dev
+    - libfmt-doc
+    - libfmt10
+  visiblename: fmtlib
+  version: 10.1.1
+  origversion: 10.1.1+ds1-4
+  status: outdated
+  maintainers:
+    - zhsj@debian.org
+  categories:
+    - misc
 - repo: openeuler_24_09
   srcname: fmt
   binnames:
@@ -2271,21 +2357,6 @@
   summary: fmt is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.
   categories:
     - Development/Other Languages
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: fmtlib
-  binnames:
-    - libfmt-dev
-    - libfmt-doc
-    - libfmt9
-  visiblename: fmtlib
-  version: 9.1.0
-  origversion: 9.1.0+ds1-2
-  status: outdated
-  maintainers:
-    - zhsj@debian.org
-  categories:
-    - misc
 - repo: openindiana
   subrepo: hipster
   srcname: fmt
@@ -2879,6 +2950,15 @@
   summary: Small, safe and fast formatting library
   categories:
     - System/Libraries
+- repo: pclinuxos
+  srcname: fmt
+  visiblename: fmt
+  version: 8.1.1
+  origversion: 8.1.1-1pclos2023
+  status: legacy
+  summary: Small, safe and fast formatting library
+  categories:
+    - System/Libraries
 - repo: pisi_main
   subrepo: main
   srcname: programming/library/fmt
@@ -2935,58 +3015,6 @@
   version: 12.2.1
   origversion: 12.2.1-1
   status: newest
-- repo: ptxdist
-  srcname: fmt
-  visiblename: fmt
-  version: 11.2.0
-  origversion: null
-  status: outdated
-  licenses:
-    - MIT WITH fmt-exception
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: fmtlib
-  binnames:
-    - libfmt-dev
-    - libfmt-doc
-  visiblename: fmtlib
-  version: 5.2.1
-  origversion: 5.2.1+ds-2
-  status: outdated
-  maintainers:
-    - jackyf@debian.org
-  categories:
-    - libdevel
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: fmtlib
-  binnames:
-    - libfmt-dev
-    - libfmt-doc
-    - libfmt7
-  visiblename: fmtlib
-  version: 7.1.3
-  origversion: 7.1.3+ds1-5
-  status: outdated
-  maintainers:
-    - zhsj@debian.org
-  categories:
-    - libdevel
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: fmtlib
-  binnames:
-    - libfmt-dev
-    - libfmt-doc
-    - libfmt10
-  visiblename: fmtlib
-  version: 10.1.1
-  origversion: 10.1.1+ds1-4
-  status: outdated
-  maintainers:
-    - zhsj@debian.org
-  categories:
-    - libdevel
 - repo: ravenports
   srcname: fmt
   binname: fmt
@@ -2999,6 +3027,23 @@
     - fallback-mnt-ravenports@repology
   categories:
     - devel
+- repo: rosa_2019_1
+  subrepo: contrib/release
+  srcname: fmt8
+  binnames:
+    - lib64fmt8
+    - lib64fmt8-devel
+  visiblename: fmt8
+  version: 8.1.1
+  origversion: 8.1.1-1
+  status: legacy
+  summary: Small, safe and fast formatting library
+  maintainers:
+    - a.proklov@rosalinux.ru
+  licenses:
+    - BSD
+  categories:
+    - System/Libraries
 - repo: rosa_2019_1
   subrepo: main/release
   srcname: fmt
@@ -3031,23 +3076,6 @@
   summary: Small, safe and fast formatting library
   maintainers:
     - a.proklov@rosa.ru
-  licenses:
-    - BSD
-  categories:
-    - System/Libraries
-- repo: rosa_2019_1
-  subrepo: contrib/release
-  srcname: fmt8
-  binnames:
-    - lib64fmt8
-    - lib64fmt8-devel
-  visiblename: fmt8
-  version: 8.1.1
-  origversion: 8.1.1-1
-  status: legacy
-  summary: Small, safe and fast formatting library
-  maintainers:
-    - a.proklov@rosalinux.ru
   licenses:
     - BSD
   categories:
@@ -3394,19 +3422,6 @@
 - repo: void_x86_64
   subrepo: x86_64
   srcname: fmt
-  binname: fmt
-  visiblename: fmt
-  version: 12.1.0
-  origversion: 12.1.0_1
-  status: outdated
-  summary: Modern formatting library
-  maintainers:
-    - dem.procopiou@gmail.com
-  licenses:
-    - MIT WITH fmt-exception
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: fmt
   binname: fmt-devel
   visiblename: fmt-devel
   version: 12.1.0
@@ -3683,7 +3698,7 @@
   summary: Modern formatting library
   categories:
     - Libs
-- repo: raspbian_testing
+- repo: raspbian_oldstable
   subrepo: main
   srcname: cppformat
   binnames:
@@ -3713,7 +3728,7 @@
   categories:
     - misc
   vulnerable: true
-- repo: raspbian_oldstable
+- repo: raspbian_testing
   subrepo: main
   srcname: cppformat
   binnames:
