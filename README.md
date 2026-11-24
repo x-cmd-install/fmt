@@ -30,7 +30,7 @@ Overall score: **8.6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 6/30 approved changesets -- score normalized to 2
+- **Code-Review** (2/10) — Found 7/30 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Branch-Protection** (1/10) — branch protection is not maximal on development and all release branches
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `12.2.1` (2026-11-07)
-- **Last commit**: 2026-11-16
+- **Last commit**: 2026-11-23
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 25,951 · **Forks**: 3,113 · **Open issues**: 3,043 · **Contributors**: 611
+- **Stars**: 25,949 · **Forks**: 3,114 · **Open issues**: 3,042 · **Contributors**: 610
 
 ## Totals (cumulative)
 
-- **Releases**: 59 · **Merged PRs**: 1392 · **Open PRs**: 12 · **Closed issues**: 3039 · **Open issues**: 4 · **Commits**: 8101
+- **Releases**: 59 · **Merged PRs**: 1388 · **Open PRs**: 12 · **Closed issues**: 3038 · **Open issues**: 4 · **Commits**: 8102
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 1 | 10 | 12 | 8 | 2 | 0 |
-| last60d | 2026-09-24 | 1 | 34 | 12 | 15 | 2 | 0 |
-| 90d | 2026-08-25 | 1 | 64 | 12 | 30 | 2 | 0 |
-| last180d | 2026-05-27 | 2 | 101 | 12 | 72 | 2 | 0 |
-| 360d | 2025-11-28 | 2 | 158 | 12 | 140 | 3 | 0 |
-| last720d | 2024-12-03 | 10 | 260 | 12 | 350 | 4 | 769 |
+| 30d | 2026-10-25 | 1 | 11 | 12 | 9 | 2 | 50 |
+| last60d | 2026-09-25 | 1 | 34 | 12 | 16 | 2 | 83 |
+| 90d | 2026-08-26 | 1 | 60 | 12 | 29 | 2 | 139 |
+| last180d | 2026-05-28 | 2 | 97 | 12 | 71 | 2 | 227 |
+| 360d | 2025-11-29 | 2 | 153 | 12 | 139 | 3 | 384 |
+| last720d | 2024-12-04 | 10 | 256 | 12 | 347 | 4 | 770 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **307** distros on [repology.org](https://repology.org/project/fmt). **37** are ✅ on the latest upstream release, **145** are ⚠️ on an older version.
+Reported by **308** distros on [repology.org](https://repology.org/project/fmt). **38** are ✅ on the latest upstream release, **144** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,4 +100,4 @@ Install metadata for fmt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T08:08:03Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T10:22:43Z._
