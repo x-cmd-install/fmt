@@ -14,12 +14,12 @@ x install fmt
 
 ## 代码洞察
 
-合计: **52,935** 行代码（覆盖前 5 种语言、共 **94** 个文件）。
+合计: **52,942** 行代码（覆盖前 5 种语言、共 **94** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| CHeader | 28,720 | 10,473 | 5,484 | 26 |
-| Cpp | 21,261 | 3,342 | 3,329 | 48 |
+| CHeader | 28,721 | 10,473 | 5,484 | 26 |
+| Cpp | 21,267 | 3,342 | 3,330 | 48 |
 | Python | 1,432 | 81 | 251 | 7 |
 | CMake | 1,178 | 172 | 154 | 12 |
 | Css | 103 | 1 | 13 | 1 |
@@ -30,7 +30,7 @@ x install fmt
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 7/30 approved changesets -- score normalized to 2
+- **Code-Review** (2/10) — Found 8/30 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Branch-Protection** (1/10) — branch protection is not maximal on development and all release branches
 
@@ -43,27 +43,27 @@ x install fmt
 ## 发布
 
 - **最新版本**: `12.2.1` (2026-11-07)
-- **最近提交**: 2026-11-23
+- **最近提交**: 2026-11-24
 - **Release 含资产**: 2 个
 
 ## 流行度
 
-- **Star**: 25,949 · **Fork**: 3,114 · **开放 issue**: 3,042 · **贡献者**: 610
+- **Star**: 25,956 · **Fork**: 3,115 · **开放 issue**: 3,042 · **贡献者**: 611
 
 ## 累计统计
 
-- **发布数**: 59 · **已合并 PR**: 1388 · **开放 PR**: 12 · **已关闭 issue**: 3038 · **开放 issue**: 4 · **提交数**: 8102
+- **发布数**: 59 · **已合并 PR**: 1389 · **开放 PR**: 10 · **已关闭 issue**: 3038 · **开放 issue**: 4 · **提交数**: 8103
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 1 | 11 | 12 | 9 | 2 | 50 |
-| last60d | 2026-09-25 | 1 | 34 | 12 | 16 | 2 | 83 |
-| 90d | 2026-08-26 | 1 | 60 | 12 | 29 | 2 | 139 |
-| last180d | 2026-05-28 | 2 | 97 | 12 | 71 | 2 | 227 |
-| 360d | 2025-11-29 | 2 | 153 | 12 | 139 | 3 | 384 |
-| last720d | 2024-12-04 | 10 | 256 | 12 | 347 | 4 | 770 |
+| 30d | 2026-10-26 | 1 | 12 | 10 | 8 | 2 | 0 |
+| last60d | 2026-09-26 | 1 | 35 | 10 | 16 | 2 | 0 |
+| 90d | 2026-08-27 | 1 | 61 | 10 | 28 | 2 | 0 |
+| last180d | 2026-05-29 | 2 | 98 | 10 | 71 | 2 | 0 |
+| 360d | 2025-11-30 | 2 | 154 | 10 | 138 | 3 | 0 |
+| last720d | 2024-12-05 | 10 | 257 | 10 | 346 | 4 | 771 |
 
 ## Release 资产
 
@@ -71,25 +71,6 @@ x install fmt
 |------|-----:|----------|
 | [fmt-12.2.1.intoto.jsonl](https://github.com/fmtlib/fmt/releases/download/12.2.1/fmt-12.2.1.intoto.jsonl) | 19.7 KiB | `other` |
 | [fmt-12.2.1.zip](https://github.com/fmtlib/fmt/releases/download/12.2.1/fmt-12.2.1.zip) | 1.4 MiB | `other` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/fmt) 上共有 **308** 个发行版报告此项目。**38** 个 ✅ 已是最新上游版本，**144** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `10.1.1` | 🪦 legacy |
-| Debian 14 | `11.1.1` | 🪦 legacy |
-| Debian 13 | `10.1.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `10.1.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `9.1.0` | ⚠️ outdated |
-| Arch | `12.2.0` | ⚠️ outdated |
-| Homebrew | `12.2.1` | ✅ latest |
-| Fedora rawhide | `12.1.0` | ⚠️ outdated |
-| Nix unstable | `12.2.0` | ⚠️ outdated |
-| Void | `12.1.0` | ⚠️ outdated |
-| Alpine edge | `12.2.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `10.2.1` | 🪦 legacy |
 
 ## 改进这些数据
 
@@ -100,4 +81,4 @@ fmt 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261124.yml` · 2026-11-24T10:22:44Z._
+_数据快照: `data/card/261125.yml` · 2026-11-25T09:07:29Z._
